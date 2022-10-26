@@ -35,6 +35,8 @@ conda create --name <application_name> python=3.9.12
 conda activate <application_name>
 # install the dependencies
 pip install -r requirements.txt
+# run the database migrations
+python manage.py migrate
 # build the search index
 python search_index/build.py
 # run the api
