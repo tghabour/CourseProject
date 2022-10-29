@@ -1,4 +1,5 @@
 import React from 'react';
+import {ResponsivePlayer} from "./player"
 
 
 export function LeftNav() {
@@ -22,18 +23,25 @@ export function LeftNav() {
 }
 export function SearchButton() {
     return (
-        <div>
-            <button>Search</button>
-            <input placeholder='any keyword...'></input>
+        <div className='container mx-auto flex flex-row'>
+            <input className='container w-2/3 px-10 mr-2 focus:outline-2 outline-orange-300 bg-orange-100 rounded text-sm text-orange-900' type="text" placeholder="Search query..." />
+            <button class="container w-1/3 h-10 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white rounded text-sm">
+                Search Class Content
+            </button>
+
         </div>
+
     )
 }
 export function SearchResults() {
     return (
-        <div>
-            <p>Search Results</p>
+        <div className='container mx-auto my-5  text-orange-900'>
+            <div>
+                <p>Search Results</p>
+            </div>
+
             <ul>
-                <li>Result 1</li>
+                <li>Resuasdasdasdasda asd asd asd asd asd asd asd asd as sasdadasdasasdas ads asda sdsa lt 1</li>
                 <li>Result 2</li>
                 <li>Result 3</li>
                 <li>Result 4</li>
@@ -46,7 +54,7 @@ export function VideoPlayer() {
 
     return (
         <div>
-            <p>Video Player</p>
+            <ResponsivePlayer />
         </div>
     )
 }
@@ -56,7 +64,14 @@ export function MainBody() {
         <div className='body-main-body'>
             <SearchButton />
             <SearchResults />
-            <VideoPlayer />
+            <div className='flex flex-row w-full'>
+                <div className='container w-1/3'></div>
+                <div className='container mx-auto w-full'>
+                <VideoPlayer />
+                </div>
+                <div className='container w-1/3'></div>
+            </div>
+
         </div>
     )
 }
