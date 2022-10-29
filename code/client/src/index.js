@@ -14,6 +14,7 @@ root.render(
   <div className='font-sans '>
   <Header />
   <MainBody />
+  <Footer />
   </div>
   </React.StrictMode>
 )

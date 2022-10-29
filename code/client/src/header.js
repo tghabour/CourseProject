@@ -9,8 +9,8 @@ export function Header() {
                 <img src={uiuc} alt="uiuc logo" className=''/>
             </div>
             <div className='flex-col'>
-                <div className='h-1/3 w-full align-middle '></div>
-                <span className='text-3xl'>CS410 Text Retrieval Project</span>
+                <div className='container h-1/3 w-full align-middle min-w-1/3'></div>
+                <span className=' text-3xl'>CS410 Text Retrieval Project</span>
                 <div className='h-1/3 w-full align-middle '></div>
             </div>
         </div>
