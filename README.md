@@ -61,7 +61,7 @@ yarn install
 yarn run
 ```
 
-The Client is served under the following URL: https://localhost:3000
+The Client is available at the following URL: https://localhost:3000
 
 
 #### API
@@ -82,4 +82,4 @@ python search_index/build.py
 python manage.py runserver
 ```
 
-The API is served under the following URL: https://localhost:8080/documents
+The API is available the following URL: https://localhost:8080/documents
