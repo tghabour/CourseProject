@@ -1,4 +1,4 @@
-# <Application Name>
+# Lecture Search and Slide Segmentation
 
 ## Introduction
 
@@ -28,17 +28,19 @@ yarn run
 #### API
 
 ```sh
-cd api
+cd code/api
 # create a conda environment
-conda create --name <application_name> python=3.9.12
+conda create --name lecture_search python=3.9.12
 # activate it
-conda activate <application_name>
+conda activate lecture_search
 # install the dependencies
 pip install -r requirements.txt
 # run the database migrations
 python manage.py migrate
 # build the search index
 python search_index/build.py
+# create an .env file (copy the .env.example)
+cp .env.example .env
 # run the api
 python manage.py runserver
 ```
