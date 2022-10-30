@@ -4,13 +4,19 @@ import json
 
 
 def index(request):
+    # example search response
     docs = {
-        "data": [
+        "corpus": "CS410_lectures",
+        "query": "bag of words",
+        "results": [
             {
-                "id": 1,
-                "title": "Lecture 1 — Overview Text Mining and Analytics - Part 1",
-                "video_url": "https://www.youtube.com/watch?v=Uqs0GewlMkQ",
+                "doc_id": 1,
+                "path": "path/to/W01_L01.mp4",
+                "rank": 1,
+                "score": 19.434,
+                "title": "Natural Language Content Analysis",
+                "video_id": "W01_L01",
             }
-        ]
+        ],
     }
     return JsonResponse(docs)
