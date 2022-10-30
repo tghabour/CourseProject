@@ -8,7 +8,43 @@
 
 ### Proposed Solution
 
-## Running the Application
+## Components
+
+## Diagram
+
+### Search Index
+The Lecture Search Engine was created with the metapy NLP toolkit.
+
+More info coming soon!
+
+### Client
+The Lecture Search Client was created with the React web application framework.
+
+More info coming soon!
+
+#### Deployment
+The User Interface is deployed to the AWS S3 platform.
+
+The live UI can be accessed at the following URL:
+
+<url here>
+
+### API
+The Lecture Search API was created with the Django web application framework.
+
+More info coming soon!
+
+#### Deployment
+The API is automatically deployed to the Digital Ocean platform every time a commit
+is pushed to the main branch under the `api` directory.
+
+More info coming soon!
+
+The live API can be accessed at the following URL:
+
+https://sea-turtle-app-7y54u.ondigitalocean.app/documents/
+
+## Running the Application Locally
 
 ### Prerequisites
 - nodejs 16+
@@ -24,6 +60,9 @@ yarn install
 # run the application
 yarn run
 ```
+
+The Client is served under the following URL: https://localhost:3000
+
 
 #### API
 
@@ -44,22 +83,3 @@ python manage.py runserver
 ```
 
 The API is served under the following URL: https://localhost:8080/documents
-
-## Components
-
-## Diagram
-
-### Search Index
-
-### User Interface
-
-### API
-The Lecture Search API was created with the Django web application framework. More info to come soon!
-
-#### Deployment
-The API is automatically deployed to the Digital Ocean platform every time a commit
-is pushed to the main branch under the `api` directory.
-
-The live API can be accessed at the following URL:
-
-https://sea-turtle-app-7y54u.ondigitalocean.app/documents/
