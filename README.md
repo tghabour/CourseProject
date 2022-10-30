@@ -39,8 +39,6 @@ pip install -r requirements.txt
 python manage.py migrate
 # build the search index
 python search_index/build.py
-# create an .env file (copy the .env.example)
-cp .env.example .env
 # run the api
 python manage.py runserver
 ```
