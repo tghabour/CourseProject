@@ -1,0 +1,9 @@
+index = "./corpora/lectures/idx"
+corpus = "lectures-file.toml"
+stop-words = "./corpora/stopwords.txt"
+dataset = "lectures"
+prefix = "./corpora"
+[[analyzers]]
+	filter = "default-unigram-chain"
+	ngram = 1
+	method = "ngram-word"
