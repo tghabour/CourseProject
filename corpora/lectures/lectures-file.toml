@@ -1,0 +1,7 @@
+type = "file-corpus"
+list = "lectures"
+
+store-full-text = true
+
+metadata = [{name = "file", type = "string"},
+            {name = "title", type = "string"}]
