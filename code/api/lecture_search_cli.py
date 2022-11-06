@@ -1,6 +1,4 @@
 # import argparse
-import os
-import metapy
 from pprint import pprint
 from lecture_search import engine
 

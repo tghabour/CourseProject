@@ -3,7 +3,6 @@ import os
 import metapy
 from pprint import pprint
 
-
 class Engine:
     CONFIG_PATH = "corpora/lectures/lectures-config.toml"
 
@@ -16,24 +15,23 @@ class Engine:
         self.total_corpus_terms = self.index.total_corpus_terms()
 
         print(
-            "[LectureSearch] Corpus created: num_docs={} unique_terms={} avg_doc_length={} total_corpus_terms={}".format(
+            "[LectureSearch] corpus created: num_docs={} unique_terms={} avg_doc_length={} total_corpus_terms={}".format(
                 self.num_docs,
                 self.unique_terms,
                 self.avg_doc_length,
                 self.total_corpus_terms,
             )
         )
-
-    def ranker(self):
-        return metapy.index.OkapiBM25(k1=50, b=0, k3=0)
+        self.ranker = metapy.index.OkapiBM25(k1=50, b=0, k3=0)
+        print("[LectureSearch] ranker created")
 
     def query_corpus(self, query_txt, max_results):
 
+        print("[LectureSearch] querying index: search={} max_results={}".format(query_txt.strip(), max_results))
+        
         query = metapy.index.Document()
         query.content(query_txt.strip())
-
-        print("[LectureSearch] querying index: search={} max_results={}".format(query_txt.strip(), max_results))
-        results = self.ranker().score(self.index, query, max_results)
+        results = self.ranker.score(self.index, query, max_results)
 
         print("[LectureSearch] results found: {}".format(len(results)))
 
