@@ -1,25 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { ResponsivePlayer } from './player';
-import {Header} from "./header"
-import "./css/output.css"
-import {MainBody} from "./body"
-import {Footer} from "./footer"
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { ResponsivePlayer } from "./player";
+import { Header } from "./header";
+import "./css/output.css";
+import { MainBody } from "./body";
+import { Footer } from "./footer";
 
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-  <div className='font-sans '>
-  <Header />
-  <MainBody />
-  <Footer />
-  </div>
+    <div className="font-sans ">
+      <Header />
+      <MainBody />
+      <Footer />
+    </div>
   </React.StrictMode>
-)
-
-
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
