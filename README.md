@@ -54,7 +54,7 @@ https://sea-turtle-app-7y54u.ondigitalocean.app/documents/
 #### Client
 
 ```sh
-cd client
+cd code/client
 # install the dependencies
 yarn install
 # run the application
@@ -69,7 +69,7 @@ The Client is available at the following URL: https://localhost:3000
 ```sh
 cd code/api
 # create a conda environment
-conda create --name lecture_search python=3.9.12
+conda create --name lecture_search python=3.5.6
 # activate it
 conda activate lecture_search
 # install the dependencies
