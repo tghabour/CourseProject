@@ -76,8 +76,8 @@ conda activate lecture_search
 pip install -r requirements.txt
 # run the database migrations
 python manage.py migrate
-# build the search index
-python search_index/build.py
+# try searching from the command line
+python lecture_search_cli.py
 # run the api
 python manage.py runserver
 ```
