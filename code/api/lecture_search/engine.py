@@ -3,6 +3,7 @@ import os
 import metapy
 from pprint import pprint
 
+
 class Engine:
     CONFIG_PATH = "corpora/lectures/lectures-config.toml"
 
@@ -27,8 +28,12 @@ class Engine:
 
     def query_corpus(self, query_txt, max_results):
 
-        print("[LectureSearch] querying index: search={} max_results={}".format(query_txt.strip(), max_results))
-        
+        print(
+            "[LectureSearch] querying index: search={} max_results={}".format(
+                query_txt.strip(), max_results
+            )
+        )
+
         query = metapy.index.Document()
         query.content(query_txt.strip())
         results = self.ranker.score(self.index, query, max_results)
