@@ -2,3 +2,4 @@ Django
 metapy
 python-dotenv
 gunicorn
+django-cors-headers
