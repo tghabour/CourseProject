@@ -3,13 +3,11 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      borderRadius: {
-      
-      }
+      borderRadius: {},
     },
     fontFamily: {
-      'sans': ['system-ui'],
-    }
+      sans: ["system-ui"],
+    },
   },
   plugins: [],
-}
+};
