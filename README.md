@@ -79,7 +79,8 @@ python manage.py migrate
 # try searching from the command line
 python lecture_search_cli.py
 # run the api
-python manage.py runserver
+gunicorn api.wsgi
 ```
 
-The API is available the following URL: https://localhost:8080/documents
+The API is available the following URL: http://localhost:8000/documents
+Try out a document search through the API: http://localhost:8000/documents?search=term%20frequency
