@@ -20,19 +20,71 @@ export function LeftNav() {
     </div>
   );
 }
-export function SearchButton() {
-  return (
-    <div className="container mx-auto flex flex-row mb-3">
-      <input
-        className="container w-2/3 px-10 mr-2 focus:outline-2 outline-orange-300 bg-orange-100 rounded text-sm text-gray-500"
-        type="text"
-        placeholder="Search query..."
-      />
-      <button class="container w-1/3 h-10 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white rounded text-sm">
-        Search Class Content
-      </button>
-    </div>
-  );
+export class SearchBox extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      error: null,
+      isLoaded: false,
+      results: []
+    };
+  }
+  getAPI(query) {
+
+    fetch(`https://sea-turtle-app-7y54u.ondigitalocean.app/documents/?search=${query}`)
+      .then(res => res.json())
+      .then(
+        (output) => {
+          console.log(output)
+          this.setState({
+            isLoaded: true,
+            results: output.results
+          })
+
+        },
+        // Note: it's important to handle errors here
+        // instead of a catch() block so that we don't swallow
+        // exceptions from actual bugs in components.
+        (error) => {
+          this.setState({
+            isLoaded: true,
+            error
+          })
+        }
+      )
+  }
+  render() {
+    const { error, isLoaded, results } = this.state;
+    console.log(results)
+    return (
+      <div>
+        <div className="container mx-auto flex flex-row mb-3">
+          <input
+            id = "query"
+            className="container w-2/3 px-10 mr-2 focus:outline-2 outline-orange-300 bg-orange-100 rounded text-sm text-gray-500"
+            type="text"
+            placeholder="Search query..."
+          />
+          <button onClick={()=> this.getAPI(document.getElementById('query').value)} className="container w-1/3 h-10 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white rounded text-sm">
+            Search Class Content
+          </button>
+        </div>
+        <div className=" container mx-auto max-h-80 overflow-x-auto mb-3">
+          {results.map((result, index) => (
+            <Result
+              key={index}
+              link="#"
+              title={result["02_score"]}
+              description={result["04_title"]}
+              video=""
+            />
+          ))}
+        </div>
+      </div>
+
+    );
+  }
+
 }
 export function Result(props) {
   return (
@@ -47,6 +99,8 @@ export function Result(props) {
     </div>
   );
 }
+
+
 export function SearchResults() {
   return (
     <div className=" container mx-auto max-h-80 overflow-x-auto mb-3">
@@ -228,8 +282,7 @@ export function TextBox() {
 export function MainBody() {
   return (
     <div className="">
-      <SearchButton />
-      <SearchResults />
+      <SearchBox />
       <div className="flex flex-row w-full">
         <div className="container w-1/3"></div>
         <div className="container mx-auto w-full">
