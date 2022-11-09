@@ -1,3 +1,10 @@
-from django.test import TestCase
+from django.test import SimpleTestCase
+from django.test import Client
 
-# Create your tests here.
+
+class DocumentTest(SimpleTestCase):
+    def test_search(self):
+        params = {"search": "text retrieval"}
+        response = self.client.get("/documents/", params)
+
+        self.assertEqual(response.status_code, 200)
