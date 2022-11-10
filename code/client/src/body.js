@@ -30,17 +30,18 @@ export class SearchBox extends React.Component {
     };
   }
   getAPI(query) {
-
-    fetch(`https://sea-turtle-app-7y54u.ondigitalocean.app/documents/?search=${query}`)
+    const API_URL = "https://sea-turtle-app-7y54u.ondigitalocean.app/documents/"
+    //const API_URL = "http://localhost:8000/documents/"
+    fetch(`${API_URL}?search=${query}`)
       .then(res => res.json())
       .then(
         (output) => {
+          console.log(query)
           console.log(output)
           this.setState({
             isLoaded: true,
             results: output.results
           })
-
         },
         // Note: it's important to handle errors here
         // instead of a catch() block so that we don't swallow
