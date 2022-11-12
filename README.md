@@ -8,37 +8,41 @@
 
 ### Proposed Solution
 
-## Components
+## Architecture
 
-## Diagram
+### Diagram
 
-### Search Index
-The Lecture Search Engine was created with the metapy NLP toolkit.
+```mermaid
+C4Deployment
+    title Component diagram for Lecture Search and Segmentation
+    Deployment_Node(do, "Digital Ocean") {
+        Deployment_Node(static_app, "Static") {
+            Container(spa, "Single Page Application", "JavaScript and React " "Front end search application.")
+        }
+        Deployment_Node(dynamic_app, "Dynamic") {
+            Container_Boundary(api, "Python and Django API", "") {
+                Component(docs, "Documents Controller", "Controller", "Handles API requests for searching documents")
+                Component(search_engine, "MetaPy Search Engine", "metapy", "Provides access to the inverted index to search for relevant documents")
+                Rel(docs, search_engine, "Uses")
+            }
+        }
+    }
 
-More info coming soon!
+    Rel_Back(spa, docs, "Uses", "JSON")
+```
 
-### Client
-The Lecture Search Client was created with the React web application framework.
+The Lecture Search Engine was created with the [metapy](https://github.com/meta-toolkit/metapy) NLP toolkit.
 
-More info coming soon!
+The Lecture Search Client was created with the [React](https://reactjs.org/) web application framework.
 
-#### Deployment
-The User Interface is deployed to the AWS S3 platform.
+The Lecture Search API was created with the [Django](https://www.djangoproject.com/) web application framework.
 
-The live UI can be accessed at the following URL:
+The API and Client are automatically deployed to the Digital Ocean platform every time a commit
+is pushed to the main branch.
 
-<url here>
+The live Client can be accessed at the following URL:
 
-### API
-The Lecture Search API was created with the Django web application framework.
-
-More info coming soon!
-
-#### Deployment
-The API is automatically deployed to the Digital Ocean platform every time a commit
-is pushed to the main branch under the `api` directory.
-
-More info coming soon!
+https://stingray-app-3sdu7.ondigitalocean.app/
 
 The live API can be accessed at the following URL:
 
@@ -76,6 +80,8 @@ conda activate lecture_search
 pip install -r requirements.txt
 # run the database migrations
 python manage.py migrate
+# run the tests
+python manage.py test
 # try searching from the command line
 python lecture_search_cli.py
 # run the api
