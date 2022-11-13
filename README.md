@@ -89,4 +89,5 @@ gunicorn api.wsgi
 ```
 
 The API is available the following URL: http://localhost:8000/documents
+
 Try out a document search through the API: http://localhost:8000/documents?search=term%20frequency
