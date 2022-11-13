@@ -48,6 +48,15 @@ The live API can be accessed at the following URL:
 
 https://sea-turtle-app-7y54u.ondigitalocean.app/documents/
 
+The API only includes one endpoint: `/documents`. This endpoint accepts HTTP GET requests with a search query parameter. The search parameter is a space separated list of words. The endpoint responds with a json formatted list of search results.
+
+Example:
+
+```sh
+(base) ➜  api git:(main) curl https://sea-turtle-app-7y54u.ondigitalocean.app/documents/\?search\=test
+{"corpus": "CS410_lectures", "query": "test", "results": [{"03_video_id": "W03_L06", "04_title": "Evaluation Of Tr Systems Practical Issues", "01_doc_id": 17, "06_txt_path": "path/to/W03_L06.txt", "02_score": 14.651, "05_vid_path": "path/to/W03_L06.mp4", "00_rank": 1}, {"03_video_id": "W03_L01", "04_title": "Evaluation Of Tr Systems", "01_doc_id": 12, "06_txt_path": "path/to/W03_L01.txt", "02_score": 11.206, "05_vid_path": "path/to/W03_L01.mp4", "00_rank": 2}, {"03_video_id": "W11_L02", "04_title": "Text Categorization Evaluation Part 1", "01_doc_id": 81, "06_txt_path": "path/to/W11_L02.txt", "02_score": 7.386, "05_vid_path": "path/to/W11_L02.mp4", "00_rank": 3}, {"03_video_id": "W12_L04", "04_title": "Contextual Text Mining Mining Causal Topics With Time Series Supervision", "01_doc_id": 89, "06_txt_path": "path/to/W12_L04.txt", "02_score": 4.599, "05_vid_path": "path/to/W12_L04.mp4", "00_rank": 4}, {"03_video_id": "W10_L06", "04_title": "Text Clustering Evaluation", "01_doc_id": 77, "06_txt_path": "path/to/W10_L06.txt", "02_score": 4.599, "05_vid_path": "path/to/W10_L06.mp4", "00_rank": 5}]}
+```
+
 ## Running the Application Locally
 
 ### Prerequisites
