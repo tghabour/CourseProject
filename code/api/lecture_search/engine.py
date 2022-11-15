@@ -44,17 +44,19 @@ class Engine:
         for i, result in enumerate(results):
             doc_id, score = result
             metadata = self.index.metadata(doc_id)
-            file = metadata.get("file")
-            file_identifier = file[:7]
+            video_id = metadata.get("video_id")
+            file_identifier = metadata.get("AWS_file")
+            aws_path = "https://cs410videostorage.s3.amazonaws.com/"
 
             search_result = {
-                "03_video_id": file_identifier,
+                "03_video_id": video_id,
                 "01_doc_id": doc_id,
                 "02_score": float("{:.3f}".format(score)),
                 "00_rank": i + 1,
                 "04_title": metadata.get("title"),
-                "05_vid_path": "path/to/{0}.mp4".format(file_identifier),
-                "06_txt_path": "path/to/{0}.txt".format(file_identifier),
+                "05_vid_path": "{0}{0}.mp4".format(aws_path, file_identifier),
+                "06_txt_path": "{0}{0}.txt".format(aws_path, file_identifier),
+                "07_pdf_path": "{0}{0}.pdf".format(aws_path, file_identifier),
             }
             search_results.append(search_result)
 

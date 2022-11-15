@@ -1,90 +1,90 @@
-W01_L01	Natural Language Content Analysis
-W01_L02	Text Access
-W01_L03	Text Retrieval Problem
-W01_L04	Overview Of Text Retrieval Methods
-W01_L05	Vector Space Model Basic Idea
-W01_L06	Vector Space Retrieval Model Simplest Instantiation
-W02_L01	Vector Space Model Improved Instantiation
-W02_L02	Tf Transformation
-W02_L03	Doc Length Normalization
-W02_L04	Implementation Of Tr Systems
-W02_L05	System Implementation Inverted Index Construction
-W02_L06	System Implementation Fast Search
-W03_L01	Evaluation Of Tr Systems
-W03_L02	Evaluation Of Tr Systems Basic Measures
-W03_L03	Evaluation Of Tr Systems Evaluating Ranked Lists Part 1
-W03_L04	Evaluation Of Tr Systems Evaluating Ranked Lists Part 2
-W03_L05	Evaluation Of Tr Systems Multi Level Judgements
-W03_L06	Evaluation Of Tr Systems Practical Issues
-W04_L01	Probabilistic Retrieval Model Basic Idea
-W04_L02	Statistical Language Model
-W04_L03	Query Likelihood Retrieval Function
-W04_L04	Statistical Language Model Part 1
-W04_L05	Statistical Language Model Part 2
-W04_L06	Smoothing Methods Part 1
-W04_L07	Smoothing Methods Part 2
-W05_L01	Feedback In Text Retrieval
-W05_L02	Feedback In Vector Space Model Rocchio
-W05_L03	Feedback In Text Retrieval Feedback In Lm
-W05_L04	Web Search Introduction Web Crawler
-W05_L05	Web Indexing
-W05_L06	Link Analysis Part 1
-W05_L07	Link Analysis Part 2
-W05_L08	Link Analysis Part 3
-W06_L01	Learning To Rank Part 1
-W06_L02	Learning To Rank Part 2
-W06_L03	Learning To Rank Part 3
-W06_L04	Future Of Web Search
-W06_L05	Recommender Systems Content Based Filtering Part 1
-W06_L06	Recommender Systems Content Based Filtering Part 2
-W06_L07	Recommender Systems Collaborative Filtering Part 1
-W06_L08	Recommender Systems Collaborative Filtering Part 2
-W06_L09	Recommender Systems Collaborative Filtering Part 3
-W06_L10	Summary For Exam 1
-W07_L01	Overview Text Mining And Analytics Part 1
-W07_L02	Overview Text Mining And Analytics Part 2
-W07_L03	Natural Language Content Analysis Part 1
-W07_L04	Natural Language Content Analysis Part 2
-W07_L05	Text Representation Part 1
-W07_L06	Text Representation Part 2
-W07_L07	Word Association Mining And Analysis
-W07_L08	Paradigmatic Relation Discovery Part 1
-W07_L09	Paradigmatic Relation Discovery Part 2
-W08_L01	Syntagmatic Relation Discovery Entropy
-W08_L02	Syntagmatic Relation Discovery Conditional Entropy
-W08_L03	Syntagmatic Relation Discovery Mutual Information Part 1
-W08_L04	Syntagmatic Relation Discovery Mutual Information Part 2
-W08_L05	Topic Mining And Analysis Motivation And Task Definition
-W08_L06	Topic Mining And Analysis Term As Topic
-W08_L07	Topic Mining And Analysis Probabilistic Topic Models
-W08_L08	Probabilistic Topic Models Overview Of Statistical Language Models Part 1
-W08_L09	Probabilistic Topic Models Overview Of Statistical Language Models Part 2
-W08_L10	Probabilistic Topic Models Mining One Topic
-W09_L01	Probabilistic Topic Models Mixture Of Unigram Language Models
-W09_L02	Probabilistic Topic Models Mixture Model Estimation Part 1
-W09_L03	Probabilistic Topic Models Mixture Model Estimation Part 2
-W09_L04	Probabilistic Topic Models Expectation Maximization Algorithm Part 1
-W09_L05	Probabilistic Topic Models Expectation Maximization Algorithm Part 2
-W09_L06	Probabilistic Topic Models Expectation Maximization Algorithm Part 3
-W09_L07	Probabilistic Latent Semantic Analysis Plsa Part 1
-W09_L08	Probabilistic Latent Semantic Analysis Plsa Part 2
-W09_L09	Latent Dirichlet Allocation Lda Part 1
-W09_L10	Latent Dirichlet Allocation Lda Part 2
-W10_L01	Text Clustering Motivation
-W10_L02	Text Clustering Generative Probabilistic Models Part 1
-W10_L03	Text Clustering Generative Probabilistic Models Part 2
-W10_L04	Text Clustering Generative Probabilistic Models Part 3
-W10_L05	Text Clustering Similarity Based Approaches
-W10_L06	Text Clustering Evaluation
-W10_L07	Text Categorization Motivation
-W10_L08	Text Categorization Methods
-W11_L01	Text Categorization Discriminative Classifier Part 1
-W11_L02	Text Categorization Evaluation Part 1
-W11_L03	Text Categorization Evaluation Part 2
-W11_L04	Opinion Mining And Sentiment Analysis Motivation
-W11_L05	Opinion Mining And Sentiment Analysis Sentiment Classification
-W11_L06	Opinion Mining And Sentiment Analysis Ordinal Logistic Regression Optional
-W12_L01	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 1
-W12_L02	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2
-W12_L03	Contextual Text Mining Motivation
-W12_L04	Contextual Text Mining Mining Causal Topics With Time Series Supervision
+W01_L01	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L02	Text Access	02_lesson-1-2-text-access
+W01_L03	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L04	Overview Of Text Retrieval Methods	04_lesson-1-4-overview-of-text-retrieval-methods
+W01_L05	Vector Space Model Basic Idea	05_lesson-1-5-vector-space-model-basic-idea
+W01_L06	Vector Space Retrieval Model Simplest Instantiation	06_lesson-1-6-vector-space-retrieval-model-simplest-instantiation
+W02_L01	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L02	Tf Transformation	02_lesson-2-2-tf-transformation
+W02_L03	Doc Length Normalization	03_lesson-2-3-doc-length-normalization
+W02_L04	Implementation Of Tr Systems	04_lesson-2-4-implementation-of-tr-systems
+W02_L05	System Implementation Inverted Index Construction	05_lesson-2-5-system-implementation-inverted-index-construction
+W02_L06	System Implementation Fast Search	06_lesson-2-6-system-implementation-fast-search
+W03_L01	Evaluation Of Tr Systems	01_lesson-3-1-evaluation-of-tr-systems
+W03_L02	Evaluation Of Tr Systems Basic Measures	02_lesson-3-2-evaluation-of-tr-systems-basic-measures
+W03_L03	Evaluation Of Tr Systems Evaluating Ranked Lists Part 1	03_lesson-3-3-evaluation-of-tr-systems-evaluating-ranked-lists-part-1
+W03_L04	Evaluation Of Tr Systems Evaluating Ranked Lists Part 2	04_lesson-3-4-evaluation-of-tr-systems-evaluating-ranked-lists-part-2
+W03_L05	Evaluation Of Tr Systems Multi Level Judgements	05_lesson-3-5-evaluation-of-tr-systems-multi-level-judgements
+W03_L06	Evaluation Of Tr Systems Practical Issues	06_lesson-3-6-evaluation-of-tr-systems-practical-issues
+W04_L01	Probabilistic Retrieval Model Basic Idea	01_lesson-4-1-probabilistic-retrieval-model-basic-idea
+W04_L02	Statistical Language Model	02_lesson-4-2-statistical-language-model
+W04_L03	Query Likelihood Retrieval Function	03_lesson-4-3-query-likelihood-retrieval-function
+W04_L04	Statistical Language Model Part 1	04_lesson-4-4-statistical-language-model-part-1
+W04_L05	Statistical Language Model Part 2	05_lesson-4-5-statistical-language-model-part-2
+W04_L06	Smoothing Methods Part 1	06_lesson-4-6-smoothing-methods-part-1
+W04_L07	Smoothing Methods Part 2	07_lesson-4-7-smoothing-methods-part-2
+W05_L01	Feedback In Text Retrieval	01_lesson-5-1-feedback-in-text-retrieval
+W05_L02	Feedback In Vector Space Model Rocchio	02_lesson-5-2-feedback-in-vector-space-model-rocchio
+W05_L03	Feedback In Text Retrieval Feedback In Lm	03_lesson-5-3-feedback-in-text-retrieval-feedback-in-lm
+W05_L04	Web Search Introduction Web Crawler	04_lesson-5-4-web-search-introduction-web-crawler
+W05_L05	Web Indexing	05_lesson-5-5-web-indexing
+W05_L06	Link Analysis Part 1	06_lesson-5-6-link-analysis-part-1
+W05_L07	Link Analysis Part 2	07_lesson-5-7-link-analysis-part-2
+W05_L08	Link Analysis Part 3	08_lesson-5-8-link-analysis-part-3-optional
+W06_L01	Learning To Rank Part 1	01_lesson-6-1-learning-to-rank-part-1-optional
+W06_L02	Learning To Rank Part 2	02_lesson-6-2-learning-to-rank-part-2-optional
+W06_L03	Learning To Rank Part 3	03_lesson-6-3-learning-to-rank-part-3-optional
+W06_L04	Future Of Web Search	04_lesson-6-4-future-of-web-search
+W06_L05	Recommender Systems Content Based Filtering Part 1	05_lesson-6-5-recommender-systems-content-based-filtering-part-1
+W06_L06	Recommender Systems Content Based Filtering Part 2	06_lesson-6-6-recommender-systems-content-based-filtering-part-2
+W06_L07	Recommender Systems Collaborative Filtering Part 1	07_lesson-6-7-recommender-systems-collaborative-filtering-part-1
+W06_L08	Recommender Systems Collaborative Filtering Part 2	08_lesson-6-8-recommender-systems-collaborative-filtering-part-2
+W06_L09	Recommender Systems Collaborative Filtering Part 3	09_lesson-6-9-recommender-systems-collaborative-filtering-part-3
+W06_L10	Summary For Exam 1	10_lesson-6-10-summary-for-exam-1
+W07_L01	Overview Text Mining And Analytics Part 1	01_7-1-overview-text-mining-and-analytics-part-1
+W07_L02	Overview Text Mining And Analytics Part 2	02_7-2-overview-text-mining-and-analytics-part-2
+W07_L03	Natural Language Content Analysis Part 1	03_7-3-natural-language-content-analysis-part-1
+W07_L04	Natural Language Content Analysis Part 2	04_7-4-natural-language-content-analysis-part-2
+W07_L05	Text Representation Part 1	05_7-5-text-representation-part-1
+W07_L06	Text Representation Part 2	06_7-6-text-representation-part-2
+W07_L07	Word Association Mining And Analysis	07_7-7-word-association-mining-and-analysis
+W07_L08	Paradigmatic Relation Discovery Part 1	08_7-8-paradigmatic-relation-discovery-part-1
+W07_L09	Paradigmatic Relation Discovery Part 2	09_7-9-paradigmatic-relation-discovery-part-2
+W08_L01	Syntagmatic Relation Discovery Entropy	01_8-1-syntagmatic-relation-discovery-entropy
+W08_L02	Syntagmatic Relation Discovery Conditional Entropy	02_8-2-syntagmatic-relation-discovery-conditional-entropy
+W08_L03	Syntagmatic Relation Discovery Mutual Information Part 1	03_8-3-syntagmatic-relation-discovery-mutual-information-part-1
+W08_L04	Syntagmatic Relation Discovery Mutual Information Part 2	04_8-4-syntagmatic-relation-discovery-mutual-information-part-2
+W08_L05	Topic Mining And Analysis Motivation And Task Definition	05_8-5-topic-mining-and-analysis-motivation-and-task-definition
+W08_L06	Topic Mining And Analysis Term As Topic	06_8-6-topic-mining-and-analysis-term-as-topic
+W08_L07	Topic Mining And Analysis Probabilistic Topic Models	07_8-7-topic-mining-and-analysis-probabilistic-topic-models
+W08_L08	Probabilistic Topic Models Overview Of Statistical Language Models Part 1	08_8-8-probabilistic-topic-models-overview-of-statistical-language-models-part-1
+W08_L09	Probabilistic Topic Models Overview Of Statistical Language Models Part 2	09_8-9-probabilistic-topic-models-overview-of-statistical-language-models-part-2
+W08_L10	Probabilistic Topic Models Mining One Topic	10_8-10-probabilistic-topic-models-mining-one-topic
+W09_L01	Probabilistic Topic Models Mixture Of Unigram Language Models	01_9-1-probabilistic-topic-models-mixture-of-unigram-language-models
+W09_L02	Probabilistic Topic Models Mixture Model Estimation Part 1	02_9-2-probabilistic-topic-models-mixture-model-estimation-part-1
+W09_L03	Probabilistic Topic Models Mixture Model Estimation Part 2	03_9-3-probabilistic-topic-models-mixture-model-estimation-part-2
+W09_L04	Probabilistic Topic Models Expectation Maximization Algorithm Part 1	04_9-4-probabilistic-topic-models-expectation-maximization-algorithm-part-1
+W09_L05	Probabilistic Topic Models Expectation Maximization Algorithm Part 2	05_9-5-probabilistic-topic-models-expectation-maximization-algorithm-part-2
+W09_L06	Probabilistic Topic Models Expectation Maximization Algorithm Part 3	06_9-6-probabilistic-topic-models-expectation-maximization-algorithm-part-3
+W09_L07	Probabilistic Latent Semantic Analysis Plsa Part 1	07_9-7-probabilistic-latent-semantic-analysis-plsa-part-1
+W09_L08	Probabilistic Latent Semantic Analysis Plsa Part 2	08_9-8-probabilistic-latent-semantic-analysis-plsa-part-2
+W09_L09	Latent Dirichlet Allocation Lda Part 1	09_9-9-latent-dirichlet-allocation-lda-part-1
+W09_L10	Latent Dirichlet Allocation Lda Part 2	10_9-10-latent-dirichlet-allocation-lda-part-2
+W10_L01	Text Clustering Motivation	01_10-1-text-clustering-motivation
+W10_L02	Text Clustering Generative Probabilistic Models Part 1	02_10-2-text-clustering-generative-probabilistic-models-part-1-optional
+W10_L03	Text Clustering Generative Probabilistic Models Part 2	03_10-3-text-clustering-generative-probabilistic-models-part-2-optional
+W10_L04	Text Clustering Generative Probabilistic Models Part 3	04_10-4-text-clustering-generative-probabilistic-models-part-3-optional
+W10_L05	Text Clustering Similarity Based Approaches	05_10-5-text-clustering-similarity-based-approaches
+W10_L06	Text Clustering Evaluation	06_10-6-text-clustering-evaluation
+W10_L07	Text Categorization Motivation	07_10-7-text-categorization-motivation
+W10_L08	Text Categorization Methods	08_10-8-text-categorization-methods
+W11_L01	Text Categorization Discriminative Classifier Part 1	01_11-1-text-categorization-discriminative-classifier-part-1
+W11_L02	Text Categorization Evaluation Part 1	02_11-3-text-categorization-evaluation-part-1
+W11_L03	Text Categorization Evaluation Part 2	03_11-4-text-categorization-evaluation-part-2
+W11_L04	Opinion Mining And Sentiment Analysis Motivation	04_11-5-opinion-mining-and-sentiment-analysis-motivation
+W11_L05	Opinion Mining And Sentiment Analysis Sentiment Classification	05_11-6-opinion-mining-and-sentiment-analysis-sentiment-classification
+W11_L06	Opinion Mining And Sentiment Analysis Ordinal Logistic Regression Optional	06_11-7-opinion-mining-and-sentiment-analysis-ordinal-logistic-regression-optional
+W12_L01	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 1	01_12-1-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-1
+W12_L02	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2	02_12-2-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-2
+W12_L03	Contextual Text Mining Motivation	03_12-4-contextual-text-mining-motivation
+W12_L04	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
