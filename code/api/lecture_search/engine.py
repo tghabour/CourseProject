@@ -54,9 +54,9 @@ class Engine:
                 "02_score": float("{:.3f}".format(score)),
                 "00_rank": i + 1,
                 "04_title": metadata.get("title"),
-                "05_vid_path": "{0}{0}.mp4".format(aws_path, file_identifier),
-                "06_txt_path": "{0}{0}.txt".format(aws_path, file_identifier),
-                "07_pdf_path": "{0}{0}.pdf".format(aws_path, file_identifier),
+                "05_vid_path": "{0}{1}.mp4".format(aws_path, file_identifier),
+                "06_txt_path": "{0}{1}.txt".format(aws_path, file_identifier),
+                "07_pdf_path": "{0}{1}.pdf".format(aws_path, file_identifier),
             }
             search_results.append(search_result)
 
