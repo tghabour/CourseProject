@@ -3,5 +3,6 @@ list = "lectures"
 
 store-full-text = true
 
-metadata = [{name = "file", type = "string"},
-            {name = "title", type = "string"}]
+metadata = [{name = "video_id", type = "string"},
+            {name = "title", type = "string"},
+            {name = "AWS_file", type = "string"}]
