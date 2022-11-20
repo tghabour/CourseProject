@@ -1,4 +1,4 @@
-[MUSIC] This lecture is about
+ This lecture is about
 evaluation of text clustering. So far we have talked about multiple
 ways of doing text clustering but how do we know which
 method works the best? So this has to do with evaluation. Now to talk about evaluation one must go back to the clustering bias that
@@ -105,4 +105,4 @@ of clustering results, this kind can be done both directly and
 indirectly, and we often would like to do both in order to get a good sense
 about how well our method works. So here's some suggested reading and
 this is particularly useful to better understand how the matches
-are calculated and clustering in general [MUSIC]
+are calculated and clustering in general 

@@ -49,8 +49,10 @@ export class SearchBox extends React.Component {
             error,
           });
         }
-      );
+      )
   }
+    
+  
 
   loadResult(results, index) {
     
@@ -61,13 +63,14 @@ export class SearchBox extends React.Component {
       currentText: results[index]["06_txt_path"],
       currentPDF: results[index]["07_pdf_path"],
     });
-    fetch('http://localhost:3000/texts/06_10-6-text-clustering-evaluation.txt')
+    const text_file = results[index]["06_txt_path"].split("/").pop()
+    const client_texts_path = 'http://localhost:3000/texts/'
+    fetch(client_texts_path + text_file)
     .then((res) => {
       return res.text()
     })
     .then(
       (output) => {
-      console.log(output);
       this.setState({
         currentDisplayText: output,
       });
@@ -92,6 +95,11 @@ export class SearchBox extends React.Component {
           className="container w-2/3 px-10 mr-2 focus:outline-2 outline-orange-300 bg-orange-100 rounded text-sm text-gray-500"
           type="text"
           placeholder="Search query..."
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              this.getAPI(document.getElementById("query").value);
+            }
+          }}
         />
         <button
           onClick={() => this.getAPI(document.getElementById("query").value)}
@@ -111,6 +119,11 @@ export class SearchBox extends React.Component {
             className="container w-2/3 px-10 mr-2 focus:outline-2 outline-orange-300 bg-orange-100 rounded text-sm text-gray-500"
             type="text"
             placeholder="Search query..."
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                this.getAPI(document.getElementById("query").value);
+              }
+            }}
           />
           <button
             onClick={() => this.getAPI(document.getElementById("query").value)}
@@ -133,6 +146,11 @@ export class SearchBox extends React.Component {
             className="container w-2/3 px-10 mr-2 focus:outline-2 outline-orange-300 bg-orange-100 rounded text-sm text-gray-500"
             type="text"
             placeholder="Search query..."
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                this.getAPI(document.getElementById("query").value);
+              }
+            }}
           />
           <button
             onClick={() => this.getAPI(document.getElementById("query").value)}
@@ -144,7 +162,7 @@ export class SearchBox extends React.Component {
           <div className="container mx-auto max-h-80 overflow-x-auto mb-3"> 
           {results.map((result, index) => (
             <div key={index} className="button flex flex-col hover:bg-orange-50 rounded p-3 object-fit">
-            <a
+            <a id="pointer"
               onClick={() => this.loadResult(results, index)}
               className="hover:underline text-sky-400 visited:text-indigo-800"
             >
@@ -174,6 +192,11 @@ export class SearchBox extends React.Component {
             className="container w-2/3 px-10 mr-2 focus:outline-2 outline-orange-300 bg-orange-100 rounded text-sm text-gray-500"
             type="text"
             placeholder="Search query..."
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                this.getAPI(document.getElementById("query").value);
+              }
+            }}
           />
           <button
             onClick={() => this.getAPI(document.getElementById("query").value)}
@@ -185,9 +208,9 @@ export class SearchBox extends React.Component {
         <div className="container mx-auto max-h-80 overflow-x-auto mb-3"> 
           {results.map((result, index) => (
             <div key={index} className="button flex flex-col hover:bg-orange-50 rounded p-3 object-fit">
-            <a
+            <a id="pointer"
               onClick={() => this.loadResult(results, index)}
-              className="hover:underline text-sky-400 visited:text-indigo-800"
+              className="hover:cursor-pointer hover:underline text-sky-400 visited:text-indigo-800"
             >
               {result["04_title"]}
             </a>
