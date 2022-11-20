@@ -1,6 +1,7 @@
 # import argparse
 import os
 import metapy
+import requests
 from pprint import pprint
 
 
@@ -47,6 +48,8 @@ class Engine:
             video_id = metadata.get("video_id")
             file_identifier = metadata.get("AWS_file")
             aws_path = "https://cs410videostorage.s3.amazonaws.com/"
+            txt_path = "{0}{1}.txt".format(aws_path, file_identifier)
+            full_text = requests.get(txt_path).text
 
             search_result = {
                 "03_video_id": video_id,
@@ -57,6 +60,7 @@ class Engine:
                 "05_vid_path": "{0}{1}.mp4".format(aws_path, file_identifier),
                 "06_txt_path": "{0}{1}.txt".format(aws_path, file_identifier),
                 "07_pdf_path": "{0}{1}.pdf".format(aws_path, file_identifier),
+                "08_full_txt": full_text,
             }
             search_results.append(search_result)
 
