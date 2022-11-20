@@ -18,7 +18,7 @@ export class ResponsivePlayer extends Component {
           width="100%"
           height="100%"
           controls
-          //autoPlay
+          autoPlay
           //</div>src='https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4'>
           //src='https://cs410videostorage.s3.amazonaws.com/Chapter1-Introduction.mp4'>
           src={this.props.video}
