@@ -2,6 +2,7 @@
 import os
 import metapy
 import requests
+import math # for math.floor
 from pprint import pprint
 
 
@@ -52,6 +53,11 @@ class Engine:
             txt_path = "{}{}.txt".format(self.LECTURES_PATH, video_id)
             with open(txt_path) as file:
                 full_text = file.read()
+            # This is a stub. Generate some plausible and consistent data
+            if metadata.get("start_time") != None:
+                start_time = metadata.get("start_time")
+            else:
+                start_time = math.floor(score * 10)
 
             search_result = {
                 "03_video_id": video_id,
@@ -63,6 +69,8 @@ class Engine:
                 "06_txt_path": "{0}{1}.txt".format(self.AWS_PATH, file_identifier),
                 "07_pdf_path": "{0}{1}.pdf".format(self.AWS_PATH, file_identifier),
                 "08_full_txt": full_text,
+                "09_section_txt": metadata.get("content"),
+                "10_start_time": start_time
             }
             search_results.append(search_result)
 
