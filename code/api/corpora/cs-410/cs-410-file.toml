@@ -1,0 +1,8 @@
+type = "line-corpus"
+
+store-full-text = true
+
+metadata = [{name = "video_id", type = "string"},
+            {name = "start_time", type = "uint"},
+            {name = "title", type = "string"},
+            {name = "AWS_file", type = "string"}]
