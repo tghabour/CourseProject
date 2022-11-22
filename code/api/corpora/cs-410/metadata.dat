@@ -1,0 +1,599 @@
+W04_L07	7	Smoothing Methods Part 2	07_lesson-4-7-smoothing-methods-part-2
+W04_L07	308	Smoothing Methods Part 2	07_lesson-4-7-smoothing-methods-part-2
+W04_L07	581	Smoothing Methods Part 2	07_lesson-4-7-smoothing-methods-part-2
+W04_L07	685	Smoothing Methods Part 2	07_lesson-4-7-smoothing-methods-part-2
+W04_L04	7	Statistical Language Model Part 1	04_lesson-4-4-statistical-language-model-part-1
+W04_L04	23	Statistical Language Model Part 1	04_lesson-4-4-statistical-language-model-part-1
+W04_L04	70	Statistical Language Model Part 1	04_lesson-4-4-statistical-language-model-part-1
+W04_L04	279	Statistical Language Model Part 1	04_lesson-4-4-statistical-language-model-part-1
+W04_L04	389	Statistical Language Model Part 1	04_lesson-4-4-statistical-language-model-part-1
+W04_L06	7	Smoothing Methods Part 1	06_lesson-4-6-smoothing-methods-part-1
+W04_L06	32	Smoothing Methods Part 1	06_lesson-4-6-smoothing-methods-part-1
+W04_L06	108	Smoothing Methods Part 1	06_lesson-4-6-smoothing-methods-part-1
+W04_L06	283	Smoothing Methods Part 1	06_lesson-4-6-smoothing-methods-part-1
+W04_L05	13	Statistical Language Model Part 2	05_lesson-4-5-statistical-language-model-part-2
+W04_L05	461	Statistical Language Model Part 2	05_lesson-4-5-statistical-language-model-part-2
+W04_L03	6	Query Likelihood Retrieval Function	03_lesson-4-3-query-likelihood-retrieval-function
+W04_L03	12	Query Likelihood Retrieval Function	03_lesson-4-3-query-likelihood-retrieval-function
+W04_L03	24	Query Likelihood Retrieval Function	03_lesson-4-3-query-likelihood-retrieval-function
+W04_L03	140	Query Likelihood Retrieval Function	03_lesson-4-3-query-likelihood-retrieval-function
+W04_L03	211	Query Likelihood Retrieval Function	03_lesson-4-3-query-likelihood-retrieval-function
+W04_L03	397	Query Likelihood Retrieval Function	03_lesson-4-3-query-likelihood-retrieval-function
+W04_L03	475	Query Likelihood Retrieval Function	03_lesson-4-3-query-likelihood-retrieval-function
+W04_L03	521	Query Likelihood Retrieval Function	03_lesson-4-3-query-likelihood-retrieval-function
+W04_L02	11	Statistical Language Model	02_lesson-4-2-statistical-language-model
+W04_L02	30	Statistical Language Model	02_lesson-4-2-statistical-language-model
+W04_L02	46	Statistical Language Model	02_lesson-4-2-statistical-language-model
+W04_L02	152	Statistical Language Model	02_lesson-4-2-statistical-language-model
+W04_L02	241	Statistical Language Model	02_lesson-4-2-statistical-language-model
+W04_L02	376	Statistical Language Model	02_lesson-4-2-statistical-language-model
+W04_L02	501	Statistical Language Model	02_lesson-4-2-statistical-language-model
+W04_L02	683	Statistical Language Model	02_lesson-4-2-statistical-language-model
+W04_L02	828	Statistical Language Model	02_lesson-4-2-statistical-language-model
+W04_L02	1007	Statistical Language Model	02_lesson-4-2-statistical-language-model
+W04_L02	1042	Statistical Language Model	02_lesson-4-2-statistical-language-model
+W04_L01	6	Probabilistic Retrieval Model Basic Idea	01_lesson-4-1-probabilistic-retrieval-model-basic-idea
+W04_L01	11	Probabilistic Retrieval Model Basic Idea	01_lesson-4-1-probabilistic-retrieval-model-basic-idea
+W04_L01	30	Probabilistic Retrieval Model Basic Idea	01_lesson-4-1-probabilistic-retrieval-model-basic-idea
+W04_L01	130	Probabilistic Retrieval Model Basic Idea	01_lesson-4-1-probabilistic-retrieval-model-basic-idea
+W04_L01	175	Probabilistic Retrieval Model Basic Idea	01_lesson-4-1-probabilistic-retrieval-model-basic-idea
+W04_L01	618	Probabilistic Retrieval Model Basic Idea	01_lesson-4-1-probabilistic-retrieval-model-basic-idea
+W04_L01	660	Probabilistic Retrieval Model Basic Idea	01_lesson-4-1-probabilistic-retrieval-model-basic-idea
+W09_L10	7	10_9 10 Latent Dirichlet Allocation Lda Part 2	10_9-10-latent-dirichlet-allocation-lda-part-2
+W09_L10	17	10_9 10 Latent Dirichlet Allocation Lda Part 2	10_9-10-latent-dirichlet-allocation-lda-part-2
+W09_L10	37	10_9 10 Latent Dirichlet Allocation Lda Part 2	10_9-10-latent-dirichlet-allocation-lda-part-2
+W09_L10	42	10_9 10 Latent Dirichlet Allocation Lda Part 2	10_9-10-latent-dirichlet-allocation-lda-part-2
+W09_L10	101	10_9 10 Latent Dirichlet Allocation Lda Part 2	10_9-10-latent-dirichlet-allocation-lda-part-2
+W09_L10	167	10_9 10 Latent Dirichlet Allocation Lda Part 2	10_9-10-latent-dirichlet-allocation-lda-part-2
+W09_L10	365	10_9 10 Latent Dirichlet Allocation Lda Part 2	10_9-10-latent-dirichlet-allocation-lda-part-2
+W09_L10	496	10_9 10 Latent Dirichlet Allocation Lda Part 2	10_9-10-latent-dirichlet-allocation-lda-part-2
+W09_L10	609	10_9 10 Latent Dirichlet Allocation Lda Part 2	10_9-10-latent-dirichlet-allocation-lda-part-2
+W09_L10	671	10_9 10 Latent Dirichlet Allocation Lda Part 2	10_9-10-latent-dirichlet-allocation-lda-part-2
+W09_L08	8	Probabilistic Latent Semantic Analysis Plsa Part 2	08_9-8-probabilistic-latent-semantic-analysis-plsa-part-2
+W09_L08	117	Probabilistic Latent Semantic Analysis Plsa Part 2	08_9-8-probabilistic-latent-semantic-analysis-plsa-part-2
+W09_L08	259	Probabilistic Latent Semantic Analysis Plsa Part 2	08_9-8-probabilistic-latent-semantic-analysis-plsa-part-2
+W09_L08	481	Probabilistic Latent Semantic Analysis Plsa Part 2	08_9-8-probabilistic-latent-semantic-analysis-plsa-part-2
+W09_L01	11	Probabilistic Topic Models Mixture Of Unigram Language Models	01_9-1-probabilistic-topic-models-mixture-of-unigram-language-models
+W09_L01	21	Probabilistic Topic Models Mixture Of Unigram Language Models	01_9-1-probabilistic-topic-models-mixture-of-unigram-language-models
+W09_L01	80	Probabilistic Topic Models Mixture Of Unigram Language Models	01_9-1-probabilistic-topic-models-mixture-of-unigram-language-models
+W09_L01	380	Probabilistic Topic Models Mixture Of Unigram Language Models	01_9-1-probabilistic-topic-models-mixture-of-unigram-language-models
+W09_L01	420	Probabilistic Topic Models Mixture Of Unigram Language Models	01_9-1-probabilistic-topic-models-mixture-of-unigram-language-models
+W09_L01	599	Probabilistic Topic Models Mixture Of Unigram Language Models	01_9-1-probabilistic-topic-models-mixture-of-unigram-language-models
+W09_L03	7	Probabilistic Topic Models Mixture Model Estimation Part 2	03_9-3-probabilistic-topic-models-mixture-model-estimation-part-2
+W09_L03	15	Probabilistic Topic Models Mixture Model Estimation Part 2	03_9-3-probabilistic-topic-models-mixture-model-estimation-part-2
+W09_L03	345	Probabilistic Topic Models Mixture Model Estimation Part 2	03_9-3-probabilistic-topic-models-mixture-model-estimation-part-2
+W09_L03	411	Probabilistic Topic Models Mixture Model Estimation Part 2	03_9-3-probabilistic-topic-models-mixture-model-estimation-part-2
+W09_L04	7	Probabilistic Topic Models Expectation Maximization Algorithm Part 1	04_9-4-probabilistic-topic-models-expectation-maximization-algorithm-part-1
+W09_L04	13	Probabilistic Topic Models Expectation Maximization Algorithm Part 1	04_9-4-probabilistic-topic-models-expectation-maximization-algorithm-part-1
+W09_L04	29	Probabilistic Topic Models Expectation Maximization Algorithm Part 1	04_9-4-probabilistic-topic-models-expectation-maximization-algorithm-part-1
+W09_L04	208	Probabilistic Topic Models Expectation Maximization Algorithm Part 1	04_9-4-probabilistic-topic-models-expectation-maximization-algorithm-part-1
+W09_L02	12	Probabilistic Topic Models Mixture Model Estimation Part 1	02_9-2-probabilistic-topic-models-mixture-model-estimation-part-1
+W09_L02	21	Probabilistic Topic Models Mixture Model Estimation Part 1	02_9-2-probabilistic-topic-models-mixture-model-estimation-part-1
+W09_L02	62	Probabilistic Topic Models Mixture Model Estimation Part 1	02_9-2-probabilistic-topic-models-mixture-model-estimation-part-1
+W09_L02	177	Probabilistic Topic Models Mixture Model Estimation Part 1	02_9-2-probabilistic-topic-models-mixture-model-estimation-part-1
+W09_L02	402	Probabilistic Topic Models Mixture Model Estimation Part 1	02_9-2-probabilistic-topic-models-mixture-model-estimation-part-1
+W09_L09	13	Latent Dirichlet Allocation Lda Part 1	09_9-9-latent-dirichlet-allocation-lda-part-1
+W09_L09	29	Latent Dirichlet Allocation Lda Part 1	09_9-9-latent-dirichlet-allocation-lda-part-1
+W09_L09	61	Latent Dirichlet Allocation Lda Part 1	09_9-9-latent-dirichlet-allocation-lda-part-1
+W09_L09	173	Latent Dirichlet Allocation Lda Part 1	09_9-9-latent-dirichlet-allocation-lda-part-1
+W09_L09	349	Latent Dirichlet Allocation Lda Part 1	09_9-9-latent-dirichlet-allocation-lda-part-1
+W09_L07	7	Probabilistic Latent Semantic Analysis Plsa Part 1	07_9-7-probabilistic-latent-semantic-analysis-plsa-part-1
+W09_L07	12	Probabilistic Latent Semantic Analysis Plsa Part 1	07_9-7-probabilistic-latent-semantic-analysis-plsa-part-1
+W09_L07	25	Probabilistic Latent Semantic Analysis Plsa Part 1	07_9-7-probabilistic-latent-semantic-analysis-plsa-part-1
+W09_L07	120	Probabilistic Latent Semantic Analysis Plsa Part 1	07_9-7-probabilistic-latent-semantic-analysis-plsa-part-1
+W09_L07	162	Probabilistic Latent Semantic Analysis Plsa Part 1	07_9-7-probabilistic-latent-semantic-analysis-plsa-part-1
+W09_L07	415	Probabilistic Latent Semantic Analysis Plsa Part 1	07_9-7-probabilistic-latent-semantic-analysis-plsa-part-1
+W09_L07	563	Probabilistic Latent Semantic Analysis Plsa Part 1	07_9-7-probabilistic-latent-semantic-analysis-plsa-part-1
+W09_L05	8	Probabilistic Topic Models Expectation Maximization Algorithm Part 2	05_9-5-probabilistic-topic-models-expectation-maximization-algorithm-part-2
+W09_L05	334	Probabilistic Topic Models Expectation Maximization Algorithm Part 2	05_9-5-probabilistic-topic-models-expectation-maximization-algorithm-part-2
+W09_L06	7	Probabilistic Topic Models Expectation Maximization Algorithm Part 3	06_9-6-probabilistic-topic-models-expectation-maximization-algorithm-part-3
+W09_L06	13	Probabilistic Topic Models Expectation Maximization Algorithm Part 3	06_9-6-probabilistic-topic-models-expectation-maximization-algorithm-part-3
+W07_L03	7	Natural Language Content Analysis Part 1	03_7-3-natural-language-content-analysis-part-1
+W07_L03	15	Natural Language Content Analysis Part 1	03_7-3-natural-language-content-analysis-part-1
+W07_L03	39	Natural Language Content Analysis Part 1	03_7-3-natural-language-content-analysis-part-1
+W07_L03	306	Natural Language Content Analysis Part 1	03_7-3-natural-language-content-analysis-part-1
+W07_L03	407	Natural Language Content Analysis Part 1	03_7-3-natural-language-content-analysis-part-1
+W07_L03	531	Natural Language Content Analysis Part 1	03_7-3-natural-language-content-analysis-part-1
+W07_L02	9	Overview Text Mining And Analytics Part 2	02_7-2-overview-text-mining-and-analytics-part-2
+W07_L02	72	Overview Text Mining And Analytics Part 2	02_7-2-overview-text-mining-and-analytics-part-2
+W07_L02	594	Overview Text Mining And Analytics Part 2	02_7-2-overview-text-mining-and-analytics-part-2
+W07_L07	13	Word Association Mining And Analysis	07_7-7-word-association-mining-and-analysis
+W07_L07	32	Word Association Mining And Analysis	07_7-7-word-association-mining-and-analysis
+W07_L07	50	Word Association Mining And Analysis	07_7-7-word-association-mining-and-analysis
+W07_L07	283	Word Association Mining And Analysis	07_7-7-word-association-mining-and-analysis
+W07_L07	436	Word Association Mining And Analysis	07_7-7-word-association-mining-and-analysis
+W07_L07	651	Word Association Mining And Analysis	07_7-7-word-association-mining-and-analysis
+W07_L07	830	Word Association Mining And Analysis	07_7-7-word-association-mining-and-analysis
+W07_L07	854	Word Association Mining And Analysis	07_7-7-word-association-mining-and-analysis
+W07_L07	888	Word Association Mining And Analysis	07_7-7-word-association-mining-and-analysis
+W07_L06	9	Text Representation Part 2	06_7-6-text-representation-part-2
+W07_L06	405	Text Representation Part 2	06_7-6-text-representation-part-2
+W07_L08	13	Paradigmatic Relation Discovery Part 1	08_7-8-paradigmatic-relation-discovery-part-1
+W07_L08	25	Paradigmatic Relation Discovery Part 1	08_7-8-paradigmatic-relation-discovery-part-1
+W07_L08	280	Paradigmatic Relation Discovery Part 1	08_7-8-paradigmatic-relation-discovery-part-1
+W07_L08	337	Paradigmatic Relation Discovery Part 1	08_7-8-paradigmatic-relation-discovery-part-1
+W07_L08	439	Paradigmatic Relation Discovery Part 1	08_7-8-paradigmatic-relation-discovery-part-1
+W07_L08	481	Paradigmatic Relation Discovery Part 1	08_7-8-paradigmatic-relation-discovery-part-1
+W07_L08	702	Paradigmatic Relation Discovery Part 1	08_7-8-paradigmatic-relation-discovery-part-1
+W07_L05	13	Text Representation Part 1	05_7-5-text-representation-part-1
+W07_L05	24	Text Representation Part 1	05_7-5-text-representation-part-1
+W07_L04	10	Natural Language Content Analysis Part 2	04_7-4-natural-language-content-analysis-part-2
+W07_L04	196	Natural Language Content Analysis Part 2	04_7-4-natural-language-content-analysis-part-2
+W07_L01	6	Overview Text Mining And Analytics Part 1	01_7-1-overview-text-mining-and-analytics-part-1
+W07_L01	12	Overview Text Mining And Analytics Part 1	01_7-1-overview-text-mining-and-analytics-part-1
+W07_L01	391	Overview Text Mining And Analytics Part 1	01_7-1-overview-text-mining-and-analytics-part-1
+W07_L01	530	Overview Text Mining And Analytics Part 1	01_7-1-overview-text-mining-and-analytics-part-1
+W07_L09	6	Paradigmatic Relation Discovery Part 2	09_7-9-paradigmatic-relation-discovery-part-2
+W07_L09	12	Paradigmatic Relation Discovery Part 2	09_7-9-paradigmatic-relation-discovery-part-2
+W07_L09	39	Paradigmatic Relation Discovery Part 2	09_7-9-paradigmatic-relation-discovery-part-2
+W07_L09	107	Paradigmatic Relation Discovery Part 2	09_7-9-paradigmatic-relation-discovery-part-2
+W07_L09	130	Paradigmatic Relation Discovery Part 2	09_7-9-paradigmatic-relation-discovery-part-2
+W07_L09	375	Paradigmatic Relation Discovery Part 2	09_7-9-paradigmatic-relation-discovery-part-2
+W07_L09	534	Paradigmatic Relation Discovery Part 2	09_7-9-paradigmatic-relation-discovery-part-2
+W07_L09	823	Paradigmatic Relation Discovery Part 2	09_7-9-paradigmatic-relation-discovery-part-2
+W07_L09	979	Paradigmatic Relation Discovery Part 2	09_7-9-paradigmatic-relation-discovery-part-2
+W02_L06	7	System Implementation Fast Search	06_lesson-2-6-system-implementation-fast-search
+W02_L06	13	System Implementation Fast Search	06_lesson-2-6-system-implementation-fast-search
+W02_L06	26	System Implementation Fast Search	06_lesson-2-6-system-implementation-fast-search
+W02_L06	186	System Implementation Fast Search	06_lesson-2-6-system-implementation-fast-search
+W02_L06	220	System Implementation Fast Search	06_lesson-2-6-system-implementation-fast-search
+W02_L06	312	System Implementation Fast Search	06_lesson-2-6-system-implementation-fast-search
+W02_L06	713	System Implementation Fast Search	06_lesson-2-6-system-implementation-fast-search
+W02_L06	805	System Implementation Fast Search	06_lesson-2-6-system-implementation-fast-search
+W02_L06	906	System Implementation Fast Search	06_lesson-2-6-system-implementation-fast-search
+W02_L06	983	System Implementation Fast Search	06_lesson-2-6-system-implementation-fast-search
+W02_L04	6	Implementation Of Tr Systems	04_lesson-2-4-implementation-of-tr-systems
+W02_L04	11	Implementation Of Tr Systems	04_lesson-2-4-implementation-of-tr-systems
+W02_L04	30	Implementation Of Tr Systems	04_lesson-2-4-implementation-of-tr-systems
+W02_L04	190	Implementation Of Tr Systems	04_lesson-2-4-implementation-of-tr-systems
+W02_L04	280	Implementation Of Tr Systems	04_lesson-2-4-implementation-of-tr-systems
+W02_L04	354	Implementation Of Tr Systems	04_lesson-2-4-implementation-of-tr-systems
+W02_L04	665	Implementation Of Tr Systems	04_lesson-2-4-implementation-of-tr-systems
+W02_L04	826	Implementation Of Tr Systems	04_lesson-2-4-implementation-of-tr-systems
+W02_L04	895	Implementation Of Tr Systems	04_lesson-2-4-implementation-of-tr-systems
+W02_L04	1084	Implementation Of Tr Systems	04_lesson-2-4-implementation-of-tr-systems
+W02_L05	7	System Implementation Inverted Index Construction	05_lesson-2-5-system-implementation-inverted-index-construction
+W02_L05	12	System Implementation Inverted Index Construction	05_lesson-2-5-system-implementation-inverted-index-construction
+W02_L05	24	System Implementation Inverted Index Construction	05_lesson-2-5-system-implementation-inverted-index-construction
+W02_L05	107	System Implementation Inverted Index Construction	05_lesson-2-5-system-implementation-inverted-index-construction
+W02_L05	306	System Implementation Inverted Index Construction	05_lesson-2-5-system-implementation-inverted-index-construction
+W02_L05	552	System Implementation Inverted Index Construction	05_lesson-2-5-system-implementation-inverted-index-construction
+W02_L05	1014	System Implementation Inverted Index Construction	05_lesson-2-5-system-implementation-inverted-index-construction
+W02_L03	7	Doc Length Normalization	03_lesson-2-3-doc-length-normalization
+W02_L03	11	Doc Length Normalization	03_lesson-2-3-doc-length-normalization
+W02_L03	25	Doc Length Normalization	03_lesson-2-3-doc-length-normalization
+W02_L03	128	Doc Length Normalization	03_lesson-2-3-doc-length-normalization
+W02_L03	261	Doc Length Normalization	03_lesson-2-3-doc-length-normalization
+W02_L03	389	Doc Length Normalization	03_lesson-2-3-doc-length-normalization
+W02_L03	563	Doc Length Normalization	03_lesson-2-3-doc-length-normalization
+W02_L03	777	Doc Length Normalization	03_lesson-2-3-doc-length-normalization
+W02_L03	942	Doc Length Normalization	03_lesson-2-3-doc-length-normalization
+W02_L03	1079	Doc Length Normalization	03_lesson-2-3-doc-length-normalization
+W02_L01	7	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L01	15	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L01	29	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L01	160	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L01	240	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L01	309	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L01	399	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L01	532	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L01	596	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L01	768	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L01	851	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L01	955	Vector Space Model Improved Instantiation	01_lesson-2-1-vector-space-model-improved-instantiation
+W02_L02	9	Tf Transformation	02_lesson-2-2-tf-transformation
+W02_L02	18	Tf Transformation	02_lesson-2-2-tf-transformation
+W02_L02	72	Tf Transformation	02_lesson-2-2-tf-transformation
+W02_L02	250	Tf Transformation	02_lesson-2-2-tf-transformation
+W02_L02	491	Tf Transformation	02_lesson-2-2-tf-transformation
+W01_L03	7	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L03	12	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L03	44	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L03	69	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L03	190	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L03	447	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L03	694	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L03	889	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L03	998	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L03	1177	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L03	1459	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L03	1529	Text Retrieval Problem	03_lesson-1-3-text-retrieval-problem
+W01_L01	6	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	14	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	32	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	42	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	55	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	73	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	99	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	105	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	222	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	238	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	254	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	312	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	356	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	382	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	415	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	446	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	493	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	533	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	588	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	827	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	883	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	945	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	1034	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	1218	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	1237	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L01	1245	Natural Language Content Analysis	01_lesson-1-1-natural-language-content-analysis
+W01_L04	7	Overview Of Text Retrieval Methods	04_lesson-1-4-overview-of-text-retrieval-methods
+W01_L04	11	Overview Of Text Retrieval Methods	04_lesson-1-4-overview-of-text-retrieval-methods
+W01_L04	32	Overview Of Text Retrieval Methods	04_lesson-1-4-overview-of-text-retrieval-methods
+W01_L04	92	Overview Of Text Retrieval Methods	04_lesson-1-4-overview-of-text-retrieval-methods
+W01_L04	264	Overview Of Text Retrieval Methods	04_lesson-1-4-overview-of-text-retrieval-methods
+W01_L04	454	Overview Of Text Retrieval Methods	04_lesson-1-4-overview-of-text-retrieval-methods
+W01_L04	510	Overview Of Text Retrieval Methods	04_lesson-1-4-overview-of-text-retrieval-methods
+W01_L04	576	Overview Of Text Retrieval Methods	04_lesson-1-4-overview-of-text-retrieval-methods
+W01_L02	7	Text Access	02_lesson-1-2-text-access
+W01_L02	12	Text Access	02_lesson-1-2-text-access
+W01_L02	59	Text Access	02_lesson-1-2-text-access
+W01_L02	79	Text Access	02_lesson-1-2-text-access
+W01_L02	276	Text Access	02_lesson-1-2-text-access
+W01_L02	379	Text Access	02_lesson-1-2-text-access
+W01_L02	498	Text Access	02_lesson-1-2-text-access
+W01_L02	530	Text Access	02_lesson-1-2-text-access
+W01_L06	7	Vector Space Retrieval Model Simplest Instantiation	06_lesson-1-6-vector-space-retrieval-model-simplest-instantiation
+W01_L06	21	Vector Space Retrieval Model Simplest Instantiation	06_lesson-1-6-vector-space-retrieval-model-simplest-instantiation
+W01_L06	53	Vector Space Retrieval Model Simplest Instantiation	06_lesson-1-6-vector-space-retrieval-model-simplest-instantiation
+W01_L06	311	Vector Space Retrieval Model Simplest Instantiation	06_lesson-1-6-vector-space-retrieval-model-simplest-instantiation
+W01_L06	368	Vector Space Retrieval Model Simplest Instantiation	06_lesson-1-6-vector-space-retrieval-model-simplest-instantiation
+W01_L06	487	Vector Space Retrieval Model Simplest Instantiation	06_lesson-1-6-vector-space-retrieval-model-simplest-instantiation
+W01_L06	597	Vector Space Retrieval Model Simplest Instantiation	06_lesson-1-6-vector-space-retrieval-model-simplest-instantiation
+W01_L06	815	Vector Space Retrieval Model Simplest Instantiation	06_lesson-1-6-vector-space-retrieval-model-simplest-instantiation
+W01_L06	940	Vector Space Retrieval Model Simplest Instantiation	06_lesson-1-6-vector-space-retrieval-model-simplest-instantiation
+W01_L05	7	Vector Space Model Basic Idea	05_lesson-1-5-vector-space-model-basic-idea
+W01_L05	16	Vector Space Model Basic Idea	05_lesson-1-5-vector-space-model-basic-idea
+W01_L05	44	Vector Space Model Basic Idea	05_lesson-1-5-vector-space-model-basic-idea
+W01_L05	118	Vector Space Model Basic Idea	05_lesson-1-5-vector-space-model-basic-idea
+W01_L05	298	Vector Space Model Basic Idea	05_lesson-1-5-vector-space-model-basic-idea
+W01_L05	431	Vector Space Model Basic Idea	05_lesson-1-5-vector-space-model-basic-idea
+W12_L07	6	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L07	15	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L07	27	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L07	86	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L07	164	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L07	270	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L07	338	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L07	585	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L07	678	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L07	832	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L07	948	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L07	1051	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L07	1073	Contextual Text Mining Mining Causal Topics With Time Series Supervision	04_12-7-contextual-text-mining-mining-causal-topics-with-time-series-supervision
+W12_L01	7	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 1	01_12-1-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-1
+W12_L01	13	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 1	01_12-1-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-1
+W12_L01	32	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 1	01_12-1-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-1
+W12_L01	204	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 1	01_12-1-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-1
+W12_L01	288	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 1	01_12-1-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-1
+W12_L01	571	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 1	01_12-1-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-1
+W12_L01	793	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 1	01_12-1-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-1
+W12_L04	7	Contextual Text Mining Motivation	03_12-4-contextual-text-mining-motivation
+W12_L04	11	Contextual Text Mining Motivation	03_12-4-contextual-text-mining-motivation
+W12_L04	45	Contextual Text Mining Motivation	03_12-4-contextual-text-mining-motivation
+W12_L04	144	Contextual Text Mining Motivation	03_12-4-contextual-text-mining-motivation
+W12_L04	295	Contextual Text Mining Motivation	03_12-4-contextual-text-mining-motivation
+W12_L02	12	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2	02_12-2-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-2
+W12_L02	116	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2	02_12-2-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-2
+W12_L02	173	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2	02_12-2-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-2
+W12_L02	217	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2	02_12-2-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-2
+W12_L02	328	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2	02_12-2-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-2
+W12_L02	457	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2	02_12-2-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-2
+W12_L02	479	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2	02_12-2-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-2
+W12_L02	534	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2	02_12-2-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-2
+W12_L02	649	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2	02_12-2-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-2
+W12_L02	745	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2	02_12-2-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-2
+W12_L02	830	Opinion Mining And Sentiment Analysis Latent Aspect Rating Analysis Part 2	02_12-2-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-2
+W05_L05	7	Web Indexing	05_lesson-5-5-web-indexing
+W05_L05	11	Web Indexing	05_lesson-5-5-web-indexing
+W05_L05	22	Web Indexing	05_lesson-5-5-web-indexing
+W05_L05	35	Web Indexing	05_lesson-5-5-web-indexing
+W05_L05	109	Web Indexing	05_lesson-5-5-web-indexing
+W05_L05	230	Web Indexing	05_lesson-5-5-web-indexing
+W05_L05	310	Web Indexing	05_lesson-5-5-web-indexing
+W05_L05	490	Web Indexing	05_lesson-5-5-web-indexing
+W05_L05	542	Web Indexing	05_lesson-5-5-web-indexing
+W05_L05	637	Web Indexing	05_lesson-5-5-web-indexing
+W05_L05	763	Web Indexing	05_lesson-5-5-web-indexing
+W05_L05	890	Web Indexing	05_lesson-5-5-web-indexing
+W05_L05	979	Web Indexing	05_lesson-5-5-web-indexing
+W05_L02	7	Feedback In Vector Space Model Rocchio	02_lesson-5-2-feedback-in-vector-space-model-rocchio
+W05_L02	11	Feedback In Vector Space Model Rocchio	02_lesson-5-2-feedback-in-vector-space-model-rocchio
+W05_L02	23	Feedback In Vector Space Model Rocchio	02_lesson-5-2-feedback-in-vector-space-model-rocchio
+W05_L02	97	Feedback In Vector Space Model Rocchio	02_lesson-5-2-feedback-in-vector-space-model-rocchio
+W05_L02	254	Feedback In Vector Space Model Rocchio	02_lesson-5-2-feedback-in-vector-space-model-rocchio
+W05_L02	346	Feedback In Vector Space Model Rocchio	02_lesson-5-2-feedback-in-vector-space-model-rocchio
+W05_L02	506	Feedback In Vector Space Model Rocchio	02_lesson-5-2-feedback-in-vector-space-model-rocchio
+W05_L02	565	Feedback In Vector Space Model Rocchio	02_lesson-5-2-feedback-in-vector-space-model-rocchio
+W05_L08	6	Link Analysis Part 3 Optional	08_lesson-5-8-link-analysis-part-3-optional
+W05_L08	22	Link Analysis Part 3 Optional	08_lesson-5-8-link-analysis-part-3-optional
+W05_L08	100	Link Analysis Part 3 Optional	08_lesson-5-8-link-analysis-part-3-optional
+W05_L08	309	Link Analysis Part 3 Optional	08_lesson-5-8-link-analysis-part-3-optional
+W05_L04	7	Web Search Introduction Web Crawler	04_lesson-5-4-web-search-introduction-web-crawler
+W05_L04	10	Web Search Introduction Web Crawler	04_lesson-5-4-web-search-introduction-web-crawler
+W05_L04	19	Web Search Introduction Web Crawler	04_lesson-5-4-web-search-introduction-web-crawler
+W05_L04	227	Web Search Introduction Web Crawler	04_lesson-5-4-web-search-introduction-web-crawler
+W05_L04	274	Web Search Introduction Web Crawler	04_lesson-5-4-web-search-introduction-web-crawler
+W05_L04	386	Web Search Introduction Web Crawler	04_lesson-5-4-web-search-introduction-web-crawler
+W05_L04	601	Web Search Introduction Web Crawler	04_lesson-5-4-web-search-introduction-web-crawler
+W05_L06	12	Link Analysis Part 1	06_lesson-5-6-link-analysis-part-1
+W05_L06	24	Link Analysis Part 1	06_lesson-5-6-link-analysis-part-1
+W05_L06	197	Link Analysis Part 1	06_lesson-5-6-link-analysis-part-1
+W05_L06	361	Link Analysis Part 1	06_lesson-5-6-link-analysis-part-1
+W05_L07	10	Link Analysis Part 2	07_lesson-5-7-link-analysis-part-2
+W05_L07	594	Link Analysis Part 2	07_lesson-5-7-link-analysis-part-2
+W05_L01	7	Feedback In Text Retrieval	01_lesson-5-1-feedback-in-text-retrieval
+W05_L01	11	Feedback In Text Retrieval	01_lesson-5-1-feedback-in-text-retrieval
+W05_L01	23	Feedback In Text Retrieval	01_lesson-5-1-feedback-in-text-retrieval
+W05_L01	117	Feedback In Text Retrieval	01_lesson-5-1-feedback-in-text-retrieval
+W05_L01	257	Feedback In Text Retrieval	01_lesson-5-1-feedback-in-text-retrieval
+W05_L03	7	Feedback In Text Retrieval Feedback In Lm	03_lesson-5-3-feedback-in-text-retrieval-feedback-in-lm
+W05_L03	12	Feedback In Text Retrieval Feedback In Lm	03_lesson-5-3-feedback-in-text-retrieval-feedback-in-lm
+W05_L03	23	Feedback In Text Retrieval Feedback In Lm	03_lesson-5-3-feedback-in-text-retrieval-feedback-in-lm
+W05_L03	110	Feedback In Text Retrieval Feedback In Lm	03_lesson-5-3-feedback-in-text-retrieval-feedback-in-lm
+W05_L03	290	Feedback In Text Retrieval Feedback In Lm	03_lesson-5-3-feedback-in-text-retrieval-feedback-in-lm
+W05_L03	407	Feedback In Text Retrieval Feedback In Lm	03_lesson-5-3-feedback-in-text-retrieval-feedback-in-lm
+W05_L03	891	Feedback In Text Retrieval Feedback In Lm	03_lesson-5-3-feedback-in-text-retrieval-feedback-in-lm
+W05_L03	1047	Feedback In Text Retrieval Feedback In Lm	03_lesson-5-3-feedback-in-text-retrieval-feedback-in-lm
+W05_L03	1115	Feedback In Text Retrieval Feedback In Lm	03_lesson-5-3-feedback-in-text-retrieval-feedback-in-lm
+W10_L07	10	Text Categorization Motivation	07_10-7-text-categorization-motivation
+W10_L07	93	Text Categorization Motivation	07_10-7-text-categorization-motivation
+W10_L07	111	Text Categorization Motivation	07_10-7-text-categorization-motivation
+W10_L07	196	Text Categorization Motivation	07_10-7-text-categorization-motivation
+W10_L07	463	Text Categorization Motivation	07_10-7-text-categorization-motivation
+W10_L07	614	Text Categorization Motivation	07_10-7-text-categorization-motivation
+W10_L02	12	Text Clustering Generative Probabilistic Models Part 1 Optional	02_10-2-text-clustering-generative-probabilistic-models-part-1-optional
+W10_L02	24	Text Clustering Generative Probabilistic Models Part 1 Optional	02_10-2-text-clustering-generative-probabilistic-models-part-1-optional
+W10_L02	53	Text Clustering Generative Probabilistic Models Part 1 Optional	02_10-2-text-clustering-generative-probabilistic-models-part-1-optional
+W10_L02	145	Text Clustering Generative Probabilistic Models Part 1 Optional	02_10-2-text-clustering-generative-probabilistic-models-part-1-optional
+W10_L02	207	Text Clustering Generative Probabilistic Models Part 1 Optional	02_10-2-text-clustering-generative-probabilistic-models-part-1-optional
+W10_L02	282	Text Clustering Generative Probabilistic Models Part 1 Optional	02_10-2-text-clustering-generative-probabilistic-models-part-1-optional
+W10_L02	336	Text Clustering Generative Probabilistic Models Part 1 Optional	02_10-2-text-clustering-generative-probabilistic-models-part-1-optional
+W10_L02	498	Text Clustering Generative Probabilistic Models Part 1 Optional	02_10-2-text-clustering-generative-probabilistic-models-part-1-optional
+W10_L02	737	Text Clustering Generative Probabilistic Models Part 1 Optional	02_10-2-text-clustering-generative-probabilistic-models-part-1-optional
+W10_L02	966	Text Clustering Generative Probabilistic Models Part 1 Optional	02_10-2-text-clustering-generative-probabilistic-models-part-1-optional
+W10_L05	7	Text Clustering Similarity Based Approaches	05_10-5-text-clustering-similarity-based-approaches
+W10_L05	12	Text Clustering Similarity Based Approaches	05_10-5-text-clustering-similarity-based-approaches
+W10_L05	28	Text Clustering Similarity Based Approaches	05_10-5-text-clustering-similarity-based-approaches
+W10_L05	174	Text Clustering Similarity Based Approaches	05_10-5-text-clustering-similarity-based-approaches
+W10_L05	200	Text Clustering Similarity Based Approaches	05_10-5-text-clustering-similarity-based-approaches
+W10_L05	241	Text Clustering Similarity Based Approaches	05_10-5-text-clustering-similarity-based-approaches
+W10_L05	312	Text Clustering Similarity Based Approaches	05_10-5-text-clustering-similarity-based-approaches
+W10_L05	367	Text Clustering Similarity Based Approaches	05_10-5-text-clustering-similarity-based-approaches
+W10_L05	456	Text Clustering Similarity Based Approaches	05_10-5-text-clustering-similarity-based-approaches
+W10_L05	606	Text Clustering Similarity Based Approaches	05_10-5-text-clustering-similarity-based-approaches
+W10_L05	907	Text Clustering Similarity Based Approaches	05_10-5-text-clustering-similarity-based-approaches
+W10_L03	6	Text Clustering Generative Probabilistic Models Part 2 Optional	03_10-3-text-clustering-generative-probabilistic-models-part-2-optional
+W10_L03	12	Text Clustering Generative Probabilistic Models Part 2 Optional	03_10-3-text-clustering-generative-probabilistic-models-part-2-optional
+W10_L03	21	Text Clustering Generative Probabilistic Models Part 2 Optional	03_10-3-text-clustering-generative-probabilistic-models-part-2-optional
+W10_L03	68	Text Clustering Generative Probabilistic Models Part 2 Optional	03_10-3-text-clustering-generative-probabilistic-models-part-2-optional
+W10_L03	267	Text Clustering Generative Probabilistic Models Part 2 Optional	03_10-3-text-clustering-generative-probabilistic-models-part-2-optional
+W10_L06	1	Text Clustering Evaluation	06_10-6-text-clustering-evaluation
+W10_L06	11	Text Clustering Evaluation	06_10-6-text-clustering-evaluation
+W10_L06	25	Text Clustering Evaluation	06_10-6-text-clustering-evaluation
+W10_L06	79	Text Clustering Evaluation	06_10-6-text-clustering-evaluation
+W10_L06	144	Text Clustering Evaluation	06_10-6-text-clustering-evaluation
+W10_L06	284	Text Clustering Evaluation	06_10-6-text-clustering-evaluation
+W10_L06	318	Text Clustering Evaluation	06_10-6-text-clustering-evaluation
+W10_L06	396	Text Clustering Evaluation	06_10-6-text-clustering-evaluation
+W10_L06	432	Text Clustering Evaluation	06_10-6-text-clustering-evaluation
+W10_L06	586	Text Clustering Evaluation	06_10-6-text-clustering-evaluation
+W10_L08	1	Text Categorization Methods	08_10-8-text-categorization-methods
+W10_L08	11	Text Categorization Methods	08_10-8-text-categorization-methods
+W10_L08	17	Text Categorization Methods	08_10-8-text-categorization-methods
+W10_L08	247	Text Categorization Methods	08_10-8-text-categorization-methods
+W10_L08	387	Text Categorization Methods	08_10-8-text-categorization-methods
+W10_L08	533	Text Categorization Methods	08_10-8-text-categorization-methods
+W10_L08	642	Text Categorization Methods	08_10-8-text-categorization-methods
+W10_L08	664	Text Categorization Methods	08_10-8-text-categorization-methods
+W10_L04	7	Text Clustering Generative Probabilistic Models Part 3 Optional	04_10-4-text-clustering-generative-probabilistic-models-part-3-optional
+W10_L04	13	Text Clustering Generative Probabilistic Models Part 3 Optional	04_10-4-text-clustering-generative-probabilistic-models-part-3-optional
+W10_L04	20	Text Clustering Generative Probabilistic Models Part 3 Optional	04_10-4-text-clustering-generative-probabilistic-models-part-3-optional
+W10_L04	50	Text Clustering Generative Probabilistic Models Part 3 Optional	04_10-4-text-clustering-generative-probabilistic-models-part-3-optional
+W10_L04	372	Text Clustering Generative Probabilistic Models Part 3 Optional	04_10-4-text-clustering-generative-probabilistic-models-part-3-optional
+W10_L04	523	Text Clustering Generative Probabilistic Models Part 3 Optional	04_10-4-text-clustering-generative-probabilistic-models-part-3-optional
+W10_L04	655	Text Clustering Generative Probabilistic Models Part 3 Optional	04_10-4-text-clustering-generative-probabilistic-models-part-3-optional
+W10_L04	777	Text Clustering Generative Probabilistic Models Part 3 Optional	04_10-4-text-clustering-generative-probabilistic-models-part-3-optional
+W10_L04	782	Text Clustering Generative Probabilistic Models Part 3 Optional	04_10-4-text-clustering-generative-probabilistic-models-part-3-optional
+W10_L01	7	Text Clustering Motivation	01_10-1-text-clustering-motivation
+W10_L01	13	Text Clustering Motivation	01_10-1-text-clustering-motivation
+W10_L01	28	Text Clustering Motivation	01_10-1-text-clustering-motivation
+W10_L01	45	Text Clustering Motivation	01_10-1-text-clustering-motivation
+W10_L01	157	Text Clustering Motivation	01_10-1-text-clustering-motivation
+W10_L01	335	Text Clustering Motivation	01_10-1-text-clustering-motivation
+W10_L01	487	Text Clustering Motivation	01_10-1-text-clustering-motivation
+W08_L10	14	10_8 10 Probabilistic Topic Models Mining One Topic	10_8-10-probabilistic-topic-models-mining-one-topic
+W08_L10	29	10_8 10 Probabilistic Topic Models Mining One Topic	10_8-10-probabilistic-topic-models-mining-one-topic
+W08_L10	73	10_8 10 Probabilistic Topic Models Mining One Topic	10_8-10-probabilistic-topic-models-mining-one-topic
+W08_L10	325	10_8 10 Probabilistic Topic Models Mining One Topic	10_8-10-probabilistic-topic-models-mining-one-topic
+W08_L10	656	10_8 10 Probabilistic Topic Models Mining One Topic	10_8-10-probabilistic-topic-models-mining-one-topic
+W08_L05	7	Topic Mining And Analysis Motivation And Task Definition	05_8-5-topic-mining-and-analysis-motivation-and-task-definition
+W08_L05	14	Topic Mining And Analysis Motivation And Task Definition	05_8-5-topic-mining-and-analysis-motivation-and-task-definition
+W08_L05	63	Topic Mining And Analysis Motivation And Task Definition	05_8-5-topic-mining-and-analysis-motivation-and-task-definition
+W08_L05	188	Topic Mining And Analysis Motivation And Task Definition	05_8-5-topic-mining-and-analysis-motivation-and-task-definition
+W08_L05	270	Topic Mining And Analysis Motivation And Task Definition	05_8-5-topic-mining-and-analysis-motivation-and-task-definition
+W08_L05	334	Topic Mining And Analysis Motivation And Task Definition	05_8-5-topic-mining-and-analysis-motivation-and-task-definition
+W08_L02	11	Syntagmatic Relation Discovery Conditional Entropy	02_8-2-syntagmatic-relation-discovery-conditional-entropy
+W08_L02	25	Syntagmatic Relation Discovery Conditional Entropy	02_8-2-syntagmatic-relation-discovery-conditional-entropy
+W08_L02	98	Syntagmatic Relation Discovery Conditional Entropy	02_8-2-syntagmatic-relation-discovery-conditional-entropy
+W08_L02	212	Syntagmatic Relation Discovery Conditional Entropy	02_8-2-syntagmatic-relation-discovery-conditional-entropy
+W08_L02	334	Syntagmatic Relation Discovery Conditional Entropy	02_8-2-syntagmatic-relation-discovery-conditional-entropy
+W08_L02	540	Syntagmatic Relation Discovery Conditional Entropy	02_8-2-syntagmatic-relation-discovery-conditional-entropy
+W08_L06	6	Topic Mining And Analysis Term As Topic	06_8-6-topic-mining-and-analysis-term-as-topic
+W08_L06	17	Topic Mining And Analysis Term As Topic	06_8-6-topic-mining-and-analysis-term-as-topic
+W08_L06	35	Topic Mining And Analysis Term As Topic	06_8-6-topic-mining-and-analysis-term-as-topic
+W08_L06	115	Topic Mining And Analysis Term As Topic	06_8-6-topic-mining-and-analysis-term-as-topic
+W08_L06	149	Topic Mining And Analysis Term As Topic	06_8-6-topic-mining-and-analysis-term-as-topic
+W08_L06	288	Topic Mining And Analysis Term As Topic	06_8-6-topic-mining-and-analysis-term-as-topic
+W08_L06	372	Topic Mining And Analysis Term As Topic	06_8-6-topic-mining-and-analysis-term-as-topic
+W08_L06	458	Topic Mining And Analysis Term As Topic	06_8-6-topic-mining-and-analysis-term-as-topic
+W08_L06	617	Topic Mining And Analysis Term As Topic	06_8-6-topic-mining-and-analysis-term-as-topic
+W08_L03	7	Syntagmatic Relation Discovery Mutual Information Part 1	03_8-3-syntagmatic-relation-discovery-mutual-information-part-1
+W08_L03	12	Syntagmatic Relation Discovery Mutual Information Part 1	03_8-3-syntagmatic-relation-discovery-mutual-information-part-1
+W08_L03	28	Syntagmatic Relation Discovery Mutual Information Part 1	03_8-3-syntagmatic-relation-discovery-mutual-information-part-1
+W08_L03	249	Syntagmatic Relation Discovery Mutual Information Part 1	03_8-3-syntagmatic-relation-discovery-mutual-information-part-1
+W08_L03	375	Syntagmatic Relation Discovery Mutual Information Part 1	03_8-3-syntagmatic-relation-discovery-mutual-information-part-1
+W08_L03	513	Syntagmatic Relation Discovery Mutual Information Part 1	03_8-3-syntagmatic-relation-discovery-mutual-information-part-1
+W08_L03	622	Syntagmatic Relation Discovery Mutual Information Part 1	03_8-3-syntagmatic-relation-discovery-mutual-information-part-1
+W08_L03	714	Syntagmatic Relation Discovery Mutual Information Part 1	03_8-3-syntagmatic-relation-discovery-mutual-information-part-1
+W08_L01	12	Syntagmatic Relation Discovery Entropy	01_8-1-syntagmatic-relation-discovery-entropy
+W08_L01	30	Syntagmatic Relation Discovery Entropy	01_8-1-syntagmatic-relation-discovery-entropy
+W08_L01	98	Syntagmatic Relation Discovery Entropy	01_8-1-syntagmatic-relation-discovery-entropy
+W08_L01	181	Syntagmatic Relation Discovery Entropy	01_8-1-syntagmatic-relation-discovery-entropy
+W08_L01	242	Syntagmatic Relation Discovery Entropy	01_8-1-syntagmatic-relation-discovery-entropy
+W08_L01	455	Syntagmatic Relation Discovery Entropy	01_8-1-syntagmatic-relation-discovery-entropy
+W08_L01	590	Syntagmatic Relation Discovery Entropy	01_8-1-syntagmatic-relation-discovery-entropy
+W08_L08	7	Probabilistic Topic Models Overview Of Statistical Language Models Part 1	08_8-8-probabilistic-topic-models-overview-of-statistical-language-models-part-1
+W08_L08	16	Probabilistic Topic Models Overview Of Statistical Language Models Part 1	08_8-8-probabilistic-topic-models-overview-of-statistical-language-models-part-1
+W08_L08	28	Probabilistic Topic Models Overview Of Statistical Language Models Part 1	08_8-8-probabilistic-topic-models-overview-of-statistical-language-models-part-1
+W08_L08	168	Probabilistic Topic Models Overview Of Statistical Language Models Part 1	08_8-8-probabilistic-topic-models-overview-of-statistical-language-models-part-1
+W08_L08	324	Probabilistic Topic Models Overview Of Statistical Language Models Part 1	08_8-8-probabilistic-topic-models-overview-of-statistical-language-models-part-1
+W08_L08	468	Probabilistic Topic Models Overview Of Statistical Language Models Part 1	08_8-8-probabilistic-topic-models-overview-of-statistical-language-models-part-1
+W08_L04	6	Syntagmatic Relation Discovery Mutual Information Part 2	04_8-4-syntagmatic-relation-discovery-mutual-information-part-2
+W08_L04	22	Syntagmatic Relation Discovery Mutual Information Part 2	04_8-4-syntagmatic-relation-discovery-mutual-information-part-2
+W08_L04	136	Syntagmatic Relation Discovery Mutual Information Part 2	04_8-4-syntagmatic-relation-discovery-mutual-information-part-2
+W08_L04	274	Syntagmatic Relation Discovery Mutual Information Part 2	04_8-4-syntagmatic-relation-discovery-mutual-information-part-2
+W08_L04	411	Syntagmatic Relation Discovery Mutual Information Part 2	04_8-4-syntagmatic-relation-discovery-mutual-information-part-2
+W08_L04	517	Syntagmatic Relation Discovery Mutual Information Part 2	04_8-4-syntagmatic-relation-discovery-mutual-information-part-2
+W08_L07	6	Topic Mining And Analysis Probabilistic Topic Models	07_8-7-topic-mining-and-analysis-probabilistic-topic-models
+W08_L07	12	Topic Mining And Analysis Probabilistic Topic Models	07_8-7-topic-mining-and-analysis-probabilistic-topic-models
+W08_L07	20	Topic Mining And Analysis Probabilistic Topic Models	07_8-7-topic-mining-and-analysis-probabilistic-topic-models
+W08_L07	85	Topic Mining And Analysis Probabilistic Topic Models	07_8-7-topic-mining-and-analysis-probabilistic-topic-models
+W08_L07	322	Topic Mining And Analysis Probabilistic Topic Models	07_8-7-topic-mining-and-analysis-probabilistic-topic-models
+W08_L07	359	Topic Mining And Analysis Probabilistic Topic Models	07_8-7-topic-mining-and-analysis-probabilistic-topic-models
+W08_L07	449	Topic Mining And Analysis Probabilistic Topic Models	07_8-7-topic-mining-and-analysis-probabilistic-topic-models
+W08_L07	719	Topic Mining And Analysis Probabilistic Topic Models	07_8-7-topic-mining-and-analysis-probabilistic-topic-models
+W08_L07	797	Topic Mining And Analysis Probabilistic Topic Models	07_8-7-topic-mining-and-analysis-probabilistic-topic-models
+W08_L09	6	Probabilistic Topic Models Overview Of Statistical Language Models Part 2	09_8-9-probabilistic-topic-models-overview-of-statistical-language-models-part-2
+W08_L09	15	Probabilistic Topic Models Overview Of Statistical Language Models Part 2	09_8-9-probabilistic-topic-models-overview-of-statistical-language-models-part-2
+W08_L09	483	Probabilistic Topic Models Overview Of Statistical Language Models Part 2	09_8-9-probabilistic-topic-models-overview-of-statistical-language-models-part-2
+W08_L09	699	Probabilistic Topic Models Overview Of Statistical Language Models Part 2	09_8-9-probabilistic-topic-models-overview-of-statistical-language-models-part-2
+W11_L07	13	Opinion Mining And Sentiment Analysis Ordinal Logistic Regression Optional	06_11-7-opinion-mining-and-sentiment-analysis-ordinal-logistic-regression-optional
+W11_L07	89	Opinion Mining And Sentiment Analysis Ordinal Logistic Regression Optional	06_11-7-opinion-mining-and-sentiment-analysis-ordinal-logistic-regression-optional
+W11_L07	189	Opinion Mining And Sentiment Analysis Ordinal Logistic Regression Optional	06_11-7-opinion-mining-and-sentiment-analysis-ordinal-logistic-regression-optional
+W11_L07	312	Opinion Mining And Sentiment Analysis Ordinal Logistic Regression Optional	06_11-7-opinion-mining-and-sentiment-analysis-ordinal-logistic-regression-optional
+W11_L07	411	Opinion Mining And Sentiment Analysis Ordinal Logistic Regression Optional	06_11-7-opinion-mining-and-sentiment-analysis-ordinal-logistic-regression-optional
+W11_L07	514	Opinion Mining And Sentiment Analysis Ordinal Logistic Regression Optional	06_11-7-opinion-mining-and-sentiment-analysis-ordinal-logistic-regression-optional
+W11_L07	684	Opinion Mining And Sentiment Analysis Ordinal Logistic Regression Optional	06_11-7-opinion-mining-and-sentiment-analysis-ordinal-logistic-regression-optional
+W11_L01	1	Text Categorization Discriminative Classifier Part 1	01_11-1-text-categorization-discriminative-classifier-part-1
+W11_L01	12	Text Categorization Discriminative Classifier Part 1	01_11-1-text-categorization-discriminative-classifier-part-1
+W11_L01	20	Text Categorization Discriminative Classifier Part 1	01_11-1-text-categorization-discriminative-classifier-part-1
+W11_L01	101	Text Categorization Discriminative Classifier Part 1	01_11-1-text-categorization-discriminative-classifier-part-1
+W11_L01	401	Text Categorization Discriminative Classifier Part 1	01_11-1-text-categorization-discriminative-classifier-part-1
+W11_L01	659	Text Categorization Discriminative Classifier Part 1	01_11-1-text-categorization-discriminative-classifier-part-1
+W11_L01	865	Text Categorization Discriminative Classifier Part 1	01_11-1-text-categorization-discriminative-classifier-part-1
+W11_L01	1042	Text Categorization Discriminative Classifier Part 1	01_11-1-text-categorization-discriminative-classifier-part-1
+W11_L05	13	Opinion Mining And Sentiment Analysis Motivation	04_11-5-opinion-mining-and-sentiment-analysis-motivation
+W11_L05	32	Opinion Mining And Sentiment Analysis Motivation	04_11-5-opinion-mining-and-sentiment-analysis-motivation
+W11_L05	108	Opinion Mining And Sentiment Analysis Motivation	04_11-5-opinion-mining-and-sentiment-analysis-motivation
+W11_L05	277	Opinion Mining And Sentiment Analysis Motivation	04_11-5-opinion-mining-and-sentiment-analysis-motivation
+W11_L05	434	Opinion Mining And Sentiment Analysis Motivation	04_11-5-opinion-mining-and-sentiment-analysis-motivation
+W11_L05	515	Opinion Mining And Sentiment Analysis Motivation	04_11-5-opinion-mining-and-sentiment-analysis-motivation
+W11_L05	632	Opinion Mining And Sentiment Analysis Motivation	04_11-5-opinion-mining-and-sentiment-analysis-motivation
+W11_L05	799	Opinion Mining And Sentiment Analysis Motivation	04_11-5-opinion-mining-and-sentiment-analysis-motivation
+W11_L05	856	Opinion Mining And Sentiment Analysis Motivation	04_11-5-opinion-mining-and-sentiment-analysis-motivation
+W11_L03	9	Text Categorization Evaluation Part 1	02_11-3-text-categorization-evaluation-part-1
+W11_L03	34	Text Categorization Evaluation Part 1	02_11-3-text-categorization-evaluation-part-1
+W11_L03	232	Text Categorization Evaluation Part 1	02_11-3-text-categorization-evaluation-part-1
+W11_L03	343	Text Categorization Evaluation Part 1	02_11-3-text-categorization-evaluation-part-1
+W11_L03	490	Text Categorization Evaluation Part 1	02_11-3-text-categorization-evaluation-part-1
+W11_L03	719	Text Categorization Evaluation Part 1	02_11-3-text-categorization-evaluation-part-1
+W11_L06	6	Opinion Mining And Sentiment Analysis Sentiment Classification	05_11-6-opinion-mining-and-sentiment-analysis-sentiment-classification
+W11_L06	10	Opinion Mining And Sentiment Analysis Sentiment Classification	05_11-6-opinion-mining-and-sentiment-analysis-sentiment-classification
+W11_L06	46	Opinion Mining And Sentiment Analysis Sentiment Classification	05_11-6-opinion-mining-and-sentiment-analysis-sentiment-classification
+W11_L06	186	Opinion Mining And Sentiment Analysis Sentiment Classification	05_11-6-opinion-mining-and-sentiment-analysis-sentiment-classification
+W11_L06	365	Opinion Mining And Sentiment Analysis Sentiment Classification	05_11-6-opinion-mining-and-sentiment-analysis-sentiment-classification
+W11_L06	484	Opinion Mining And Sentiment Analysis Sentiment Classification	05_11-6-opinion-mining-and-sentiment-analysis-sentiment-classification
+W11_L06	535	Opinion Mining And Sentiment Analysis Sentiment Classification	05_11-6-opinion-mining-and-sentiment-analysis-sentiment-classification
+W11_L06	562	Opinion Mining And Sentiment Analysis Sentiment Classification	05_11-6-opinion-mining-and-sentiment-analysis-sentiment-classification
+W11_L04	11	Text Categorization Evaluation Part 2	03_11-4-text-categorization-evaluation-part-2
+W11_L04	152	Text Categorization Evaluation Part 2	03_11-4-text-categorization-evaluation-part-2
+W11_L04	206	Text Categorization Evaluation Part 2	03_11-4-text-categorization-evaluation-part-2
+W11_L04	333	Text Categorization Evaluation Part 2	03_11-4-text-categorization-evaluation-part-2
+W11_L04	477	Text Categorization Evaluation Part 2	03_11-4-text-categorization-evaluation-part-2
+W11_L04	617	Text Categorization Evaluation Part 2	03_11-4-text-categorization-evaluation-part-2
+W06_L06	9	Recommender Systems Content Based Filtering Part 2	06_lesson-6-6-recommender-systems-content-based-filtering-part-2
+W06_L06	178	Recommender Systems Content Based Filtering Part 2	06_lesson-6-6-recommender-systems-content-based-filtering-part-2
+W06_L06	267	Recommender Systems Content Based Filtering Part 2	06_lesson-6-6-recommender-systems-content-based-filtering-part-2
+W06_L06	507	Recommender Systems Content Based Filtering Part 2	06_lesson-6-6-recommender-systems-content-based-filtering-part-2
+W06_L06	574	Recommender Systems Content Based Filtering Part 2	06_lesson-6-6-recommender-systems-content-based-filtering-part-2
+W06_L07	6	Recommender Systems Collaborative Filtering Part 1	07_lesson-6-7-recommender-systems-collaborative-filtering-part-1
+W06_L07	10	Recommender Systems Collaborative Filtering Part 1	07_lesson-6-7-recommender-systems-collaborative-filtering-part-1
+W06_L07	21	Recommender Systems Collaborative Filtering Part 1	07_lesson-6-7-recommender-systems-collaborative-filtering-part-1
+W06_L07	43	Recommender Systems Collaborative Filtering Part 1	07_lesson-6-7-recommender-systems-collaborative-filtering-part-1
+W06_L07	109	Recommender Systems Collaborative Filtering Part 1	07_lesson-6-7-recommender-systems-collaborative-filtering-part-1
+W06_L07	203	Recommender Systems Collaborative Filtering Part 1	07_lesson-6-7-recommender-systems-collaborative-filtering-part-1
+W06_L09	7	Recommender Systems Collaborative Filtering Part 3	09_lesson-6-9-recommender-systems-collaborative-filtering-part-3
+W06_L09	12	Recommender Systems Collaborative Filtering Part 3	09_lesson-6-9-recommender-systems-collaborative-filtering-part-3
+W06_L09	250	Recommender Systems Collaborative Filtering Part 3	09_lesson-6-9-recommender-systems-collaborative-filtering-part-3
+W06_L10	11	10_Lesson 6 10 Summary For Exam 1	10_lesson-6-10-summary-for-exam-1
+W06_L10	29	10_Lesson 6 10 Summary For Exam 1	10_lesson-6-10-summary-for-exam-1
+W06_L10	333	10_Lesson 6 10 Summary For Exam 1	10_lesson-6-10-summary-for-exam-1
+W06_L10	348	10_Lesson 6 10 Summary For Exam 1	10_lesson-6-10-summary-for-exam-1
+W06_L10	430	10_Lesson 6 10 Summary For Exam 1	10_lesson-6-10-summary-for-exam-1
+W06_L02	6	Learning To Rank Part 2 Optional	02_lesson-6-2-learning-to-rank-part-2-optional
+W06_L02	15	Learning To Rank Part 2 Optional	02_lesson-6-2-learning-to-rank-part-2-optional
+W06_L03	7	Learning To Rank Part 3 Optional	03_lesson-6-3-learning-to-rank-part-3-optional
+W06_L03	16	Learning To Rank Part 3 Optional	03_lesson-6-3-learning-to-rank-part-3-optional
+W06_L03	130	Learning To Rank Part 3 Optional	03_lesson-6-3-learning-to-rank-part-3-optional
+W06_L03	252	Learning To Rank Part 3 Optional	03_lesson-6-3-learning-to-rank-part-3-optional
+W06_L01	6	Learning To Rank Part 1 Optional	01_lesson-6-1-learning-to-rank-part-1-optional
+W06_L01	11	Learning To Rank Part 1 Optional	01_lesson-6-1-learning-to-rank-part-1-optional
+W06_L01	22	Learning To Rank Part 1 Optional	01_lesson-6-1-learning-to-rank-part-1-optional
+W06_L05	7	Recommender Systems Content Based Filtering Part 1	05_lesson-6-5-recommender-systems-content-based-filtering-part-1
+W06_L05	11	Recommender Systems Content Based Filtering Part 1	05_lesson-6-5-recommender-systems-content-based-filtering-part-1
+W06_L05	82	Recommender Systems Content Based Filtering Part 1	05_lesson-6-5-recommender-systems-content-based-filtering-part-1
+W06_L05	118	Recommender Systems Content Based Filtering Part 1	05_lesson-6-5-recommender-systems-content-based-filtering-part-1
+W06_L05	162	Recommender Systems Content Based Filtering Part 1	05_lesson-6-5-recommender-systems-content-based-filtering-part-1
+W06_L05	225	Recommender Systems Content Based Filtering Part 1	05_lesson-6-5-recommender-systems-content-based-filtering-part-1
+W06_L05	526	Recommender Systems Content Based Filtering Part 1	05_lesson-6-5-recommender-systems-content-based-filtering-part-1
+W06_L05	601	Recommender Systems Content Based Filtering Part 1	05_lesson-6-5-recommender-systems-content-based-filtering-part-1
+W06_L05	692	Recommender Systems Content Based Filtering Part 1	05_lesson-6-5-recommender-systems-content-based-filtering-part-1
+W06_L08	11	Recommender Systems Collaborative Filtering Part 2	08_lesson-6-8-recommender-systems-collaborative-filtering-part-2
+W06_L08	32	Recommender Systems Collaborative Filtering Part 2	08_lesson-6-8-recommender-systems-collaborative-filtering-part-2
+W06_L08	455	Recommender Systems Collaborative Filtering Part 2	08_lesson-6-8-recommender-systems-collaborative-filtering-part-2
+W06_L08	595	Recommender Systems Collaborative Filtering Part 2	08_lesson-6-8-recommender-systems-collaborative-filtering-part-2
+W06_L04	7	Future Of Web Search	04_lesson-6-4-future-of-web-search
+W06_L04	11	Future Of Web Search	04_lesson-6-4-future-of-web-search
+W06_L04	23	Future Of Web Search	04_lesson-6-4-future-of-web-search
+W06_L04	290	Future Of Web Search	04_lesson-6-4-future-of-web-search
+W06_L04	336	Future Of Web Search	04_lesson-6-4-future-of-web-search
+W06_L04	503	Future Of Web Search	04_lesson-6-4-future-of-web-search
+W03_L03	7	Evaluation Of Tr Systems Evaluating Ranked Lists Part 1	03_lesson-3-3-evaluation-of-tr-systems-evaluating-ranked-lists-part-1
+W03_L03	12	Evaluation Of Tr Systems Evaluating Ranked Lists Part 1	03_lesson-3-3-evaluation-of-tr-systems-evaluating-ranked-lists-part-1
+W03_L03	23	Evaluation Of Tr Systems Evaluating Ranked Lists Part 1	03_lesson-3-3-evaluation-of-tr-systems-evaluating-ranked-lists-part-1
+W03_L03	393	Evaluation Of Tr Systems Evaluating Ranked Lists Part 1	03_lesson-3-3-evaluation-of-tr-systems-evaluating-ranked-lists-part-1
+W03_L03	659	Evaluation Of Tr Systems Evaluating Ranked Lists Part 1	03_lesson-3-3-evaluation-of-tr-systems-evaluating-ranked-lists-part-1
+W03_L04	11	Evaluation Of Tr Systems Evaluating Ranked Lists Part 2	04_lesson-3-4-evaluation-of-tr-systems-evaluating-ranked-lists-part-2
+W03_L04	274	Evaluation Of Tr Systems Evaluating Ranked Lists Part 2	04_lesson-3-4-evaluation-of-tr-systems-evaluating-ranked-lists-part-2
+W03_L04	556	Evaluation Of Tr Systems Evaluating Ranked Lists Part 2	04_lesson-3-4-evaluation-of-tr-systems-evaluating-ranked-lists-part-2
+W03_L01	12	Evaluation Of Tr Systems	01_lesson-3-1-evaluation-of-tr-systems
+W03_L01	39	Evaluation Of Tr Systems	01_lesson-3-1-evaluation-of-tr-systems
+W03_L01	178	Evaluation Of Tr Systems	01_lesson-3-1-evaluation-of-tr-systems
+W03_L01	263	Evaluation Of Tr Systems	01_lesson-3-1-evaluation-of-tr-systems
+W03_L01	415	Evaluation Of Tr Systems	01_lesson-3-1-evaluation-of-tr-systems
+W03_L05	7	Evaluation Of Tr Systems Multi Level Judgements	05_lesson-3-5-evaluation-of-tr-systems-multi-level-judgements
+W03_L05	15	Evaluation Of Tr Systems Multi Level Judgements	05_lesson-3-5-evaluation-of-tr-systems-multi-level-judgements
+W03_L05	27	Evaluation Of Tr Systems Multi Level Judgements	05_lesson-3-5-evaluation-of-tr-systems-multi-level-judgements
+W03_L05	581	Evaluation Of Tr Systems Multi Level Judgements	05_lesson-3-5-evaluation-of-tr-systems-multi-level-judgements
+W03_L06	7	Evaluation Of Tr Systems Practical Issues	06_lesson-3-6-evaluation-of-tr-systems-practical-issues
+W03_L06	14	Evaluation Of Tr Systems Practical Issues	06_lesson-3-6-evaluation-of-tr-systems-practical-issues
+W03_L06	24	Evaluation Of Tr Systems Practical Issues	06_lesson-3-6-evaluation-of-tr-systems-practical-issues
+W03_L06	146	Evaluation Of Tr Systems Practical Issues	06_lesson-3-6-evaluation-of-tr-systems-practical-issues
+W03_L06	308	Evaluation Of Tr Systems Practical Issues	06_lesson-3-6-evaluation-of-tr-systems-practical-issues
+W03_L06	554	Evaluation Of Tr Systems Practical Issues	06_lesson-3-6-evaluation-of-tr-systems-practical-issues
+W03_L06	586	Evaluation Of Tr Systems Practical Issues	06_lesson-3-6-evaluation-of-tr-systems-practical-issues
+W03_L06	746	Evaluation Of Tr Systems Practical Issues	06_lesson-3-6-evaluation-of-tr-systems-practical-issues
+W03_L06	881	Evaluation Of Tr Systems Practical Issues	06_lesson-3-6-evaluation-of-tr-systems-practical-issues
+W03_L02	12	Evaluation Of Tr Systems Basic Measures	02_lesson-3-2-evaluation-of-tr-systems-basic-measures
+W03_L02	24	Evaluation Of Tr Systems Basic Measures	02_lesson-3-2-evaluation-of-tr-systems-basic-measures
+W03_L02	216	Evaluation Of Tr Systems Basic Measures	02_lesson-3-2-evaluation-of-tr-systems-basic-measures
+W03_L02	423	Evaluation Of Tr Systems Basic Measures	02_lesson-3-2-evaluation-of-tr-systems-basic-measures
+W03_L02	722	Evaluation Of Tr Systems Basic Measures	02_lesson-3-2-evaluation-of-tr-systems-basic-measures
