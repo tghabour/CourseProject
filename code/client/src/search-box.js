@@ -2,6 +2,14 @@ import React from "react";
 import { TextBox } from "./text-box";
 import { ResponsivePlayer } from "./player";
 
+const processText = (text) => {
+  let output = ""
+  output = text.slice(0, 500) + ' ...'
+  output = output.replace(/\[SOUND\]/g, '')
+  output = output.replace(/\[MUSIC\]/g, '')
+  return output
+}
+
 export class SearchBox extends React.Component {
   constructor(props) {
     super(props);
@@ -9,7 +17,6 @@ export class SearchBox extends React.Component {
       error: null,
       isLoaded: false,
       results: [],
-      texts: [],
       query: "",
       resultLoaded: false,
       currentResultIndex: null,
@@ -18,8 +25,7 @@ export class SearchBox extends React.Component {
       currentVideo: "",
       currentText: "",
       currentDisplayText: "",
-      currentPDF: "",
-
+      currentPDF: ""
     };
   }
   getAPI(query) {
@@ -38,20 +44,7 @@ export class SearchBox extends React.Component {
           this.setState({
             isLoaded: true,
             results: output.results,
-            texts: []
           });
-          for (const result of output.results) {
-            const text_file = result["06_txt_path"].split("/").pop()
-            const client_texts_path = 'http://localhost:3000/texts/'
-            fetch(client_texts_path + text_file)
-            .then(res => {return res.text()})
-            .then(output => {
-              this.setState({
-                texts: [...this.state.texts, output.slice(0,500) + '...']
-              })
-            })
-          }
-          
         },
         // Note: it's important to handle errors here
         // instead of a catch() block so that we don't swallow
@@ -80,30 +73,15 @@ export class SearchBox extends React.Component {
       currentResultIndex: index,
       previousResultIndex: prev_index,
       nextResultIndex: next_index,
-      currentVideo: results[index]["05_vid_path"],
+      currentVideo: results[index]["05_vid_path"] + `#t=${results[index]["10_start_time"]}`,
       currentText: results[index]["06_txt_path"],
       currentPDF: results[index]["07_pdf_path"],
+      currentDisplayText: results[index]["08_full_txt"],
     });
-    const text_file = results[index]["06_txt_path"].split("/").pop()
-    const client_texts_path = 'http://localhost:3000/texts/'
-    fetch(client_texts_path + text_file)
-    .then((res) => {
-      return res.text()
-    })
-    .then(
-      (output) => {
-      this.setState({
-        currentDisplayText: output,
-      });
-      },
-      (error) => {
-        console.log(error)
-      }
-    );
   }
 
   render() {
-    const { error, isLoaded, results, query, resultLoaded, previousResultIndex, nextResultIndex, currentVideo, currentText, currentPDF, currentDisplayText, texts } = this.state;
+    const { error, isLoaded, results, query, resultLoaded, previousResultIndex, nextResultIndex, currentVideo, currentText, currentPDF, currentDisplayText } = this.state;
     //console.log(texts)
     if (error) {
       return <div>Error: {error.message}</div>;
@@ -189,7 +167,7 @@ export class SearchBox extends React.Component {
             >
               {result["04_title"]}
             </a>
-            <span className="text-gray-500">{texts[index]}</span>
+            <span className="text-gray-500">{processText(result['08_full_txt'])}</span>
           </div>
           ))}
           </div>
@@ -249,7 +227,7 @@ export class SearchBox extends React.Component {
                     </svg>
                   </span>
                 </a>
-                <a onClick={()=>this.loadResult(results, previousResultIndex)} className="pl-5 pt-5 inline-flex w-20 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white text-xs p-1 rounded mr-4">
+                <a onClick={()=>this.loadResult(results, nextResultIndex)} className="pl-5 pt-5 inline-flex w-20 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white text-xs p-1 rounded mr-4">
                   Next
                 </a>
               </div>
@@ -290,7 +268,7 @@ export class SearchBox extends React.Component {
             >
               {result["04_title"]}
             </a>
-            <span className="text-gray-500">{texts[index]}</span>
+            <span className="text-gray-500">{processText(result['08_full_txt'])}</span>
           </div>
           ))}
         </div>
