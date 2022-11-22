@@ -5,8 +5,11 @@ from lecture_search import engine
 
 class EngineTest(SimpleTestCase):
     def test_query_corpus(self):
-        search_engine = engine.Engine()
-        result = search_engine.query_corpus("test", 5)
+        corpus = 'lectures'
+        query = 'test'
+        max_results = 5
+        search_engine = engine.Engine(corpus)
+        result = search_engine.query_corpus(query, max_results)
         self.assertIsNotNone(result)
         self.assertIn("results", result)
         self.assertIn("corpus", result)
