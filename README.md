@@ -99,4 +99,23 @@ gunicorn api.wsgi
 
 The API is available the following URL: http://localhost:8000/documents
 
-Try out a document search through the API: http://localhost:8000/documents?search=term%20frequency
+Try out a document search through the API: http://localhost:8000/documents?search=term%20frequency&corpus=lectures&max_results=5
+
+
+#### Corpus creation
+
+```sh
+cd code/prep
+# create a conda environment
+conda create --name corpus_create python=3.9.15
+# activate it
+conda activate corpus_create
+# install the dependencies
+pip install -r requirements.txt
+# download course using coursera-dl
+coursera-dl -ca {your CAUTH cookie value} cs-410
+# create corpus
+python prep.py
+```
+
+Each directory in `code/prep` will result in a new corpus. The corpus creator was modelled on file names downloaded by `coursera-dl` for the `cs-410` course and may not work on others.
