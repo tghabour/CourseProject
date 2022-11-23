@@ -11,15 +11,8 @@ def index(request):
 
     # "search" is the only mandatory parameter
     # Set defaults for any unset parameters
-    if query_params.get("corpus", "") == "" or query_params.get("corpus", "") == None:
-        corpus = "lectures"
-    else:
-        corpus = query_params.get("corpus", "")
-
-    if query_params.get("max_results", "") == "" or query_params.get("max_results", "") == None:
-        max_results = 5
-    else:
-        max_results = int(query_params.get("max_results", ""))
+    corpus = query_params.get('corpus', 'lectures') or 'lectures'
+    max_results = int(query_params.get('max_results', 5) or 5)
 
     # Build Engine for each corpus which exists
     search_engine = {}
