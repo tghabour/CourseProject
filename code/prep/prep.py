@@ -49,9 +49,8 @@ def build_corpus(srt_file,data,metadata):
         end_time = [int(_) for _ in end_time]
 
         # Get matching subtitles for the time slice
-        # XXX What happens to captions that span scenes? Which scene do they belong to? Currently neither, and they get lost
         section_subs = subs.slice(starts_after={'hours':start_time[0],'minutes':start_time[1],'seconds':start_time[2]},
-                                  ends_before={'hours':end_time[0],'minutes':end_time[1],'seconds':end_time[2]+1})
+                                  starts_before={'hours':end_time[0],'minutes':end_time[1],'seconds':end_time[2]})
 
         # Concatenate all of the slices together, removing any newlines along the way
         section_sub_list = []
