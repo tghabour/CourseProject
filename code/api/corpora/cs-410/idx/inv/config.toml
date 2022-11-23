@@ -1,0 +1,9 @@
+index = "./corpora/cs-410/idx"
+corpus = "cs-410-file.toml"
+stop-words = "./corpora/stopwords.txt"
+dataset = "cs-410"
+prefix = "./corpora"
+[[analyzers]]
+	filter = "default-unigram-chain"
+	ngram = 1
+	method = "ngram-word"
