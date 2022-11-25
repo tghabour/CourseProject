@@ -1,15 +1,11 @@
-# import argparse
-import os
 import metapy
-import requests
-import math # for math.floor
-from pprint import pprint
+from summarizer.extractive import ExtractiveSummarizer
 
 
-class Engine():
+class Engine:
     AWS_PATH = "https://cs410videostorage.s3.amazonaws.com/"
 
-    def __init__(self,corpus):
+    def __init__(self, corpus):
         # make extensible?
         self.corpus = corpus
         self.CONFIG_PATH = "corpora/" + self.corpus + "/" + self.corpus + "-config.toml"
@@ -35,8 +31,7 @@ class Engine():
 
         print(
             "[{}] querying index: search={} max_results={}".format(
-                self.corpus,
-                query_txt.strip(), max_results
+                self.corpus, query_txt.strip(), max_results
             )
         )
 
@@ -44,7 +39,7 @@ class Engine():
         query.content(query_txt.strip())
         results = self.ranker.score(self.index, query, max_results)
 
-        print("[{}] results found: {}".format(self.corpus,len(results)))
+        print("[{}] results found: {}".format(self.corpus, len(results)))
 
         search_results = []
         for i, result in enumerate(results):
@@ -52,9 +47,15 @@ class Engine():
             metadata = self.index.metadata(doc_id)
             video_id = metadata.get("video_id")
             file_identifier = metadata.get("AWS_file")
-            txt_path = "{}{}.txt".format('corpora/lectures/', video_id)
+            txt_path = "{}{}.txt".format("corpora/lectures/", video_id)
             with open(txt_path) as file:
                 full_text = file.read()
+
+            # extracts some relevant sentences, that include the search terms
+            summarizer = ExtractiveSummarizer(full_text)
+            summary = summarizer.extractive_summary(
+                num_sentences=2, highlight_query=query_txt.split()
+            )
 
             search_result = {
                 "03_video_id": video_id,
@@ -68,6 +69,7 @@ class Engine():
                 "08_full_txt": full_text,
                 "09_section_txt": metadata.get("content"),
                 "10_start_time": metadata.get("start_time"),
+                "11_summary": summary,
             }
             search_results.append(search_result)
 
