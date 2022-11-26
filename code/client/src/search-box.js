@@ -10,6 +10,20 @@ const processText = (text) => {
   return output
 }
 
+const getSearchTypeValue = () => {
+  let searchType = document.getElementsByName("search-type")
+  for (let i = 0; i < searchType.length; i++) {
+    if (searchType[i].checked) {
+      return searchType[i].value
+    }
+  }
+}
+
+const getMaxResultsValue = () => {
+  let maxResults = document.getElementById("search-max-results")
+  return maxResults.options[maxResults.selectedIndex].value
+}
+
 export class SearchBox extends React.Component {
   constructor(props) {
     super(props);
@@ -28,18 +42,19 @@ export class SearchBox extends React.Component {
       currentPDF: ""
     };
   }
-  getAPI(query) {
+  searchAPI(query, corpus, max_results) {
     this.setState({
       query: query,
     })
     const API_URL =
       "https://sea-turtle-app-7y54u.ondigitalocean.app/documents/";
+    const FULL_URL = `${API_URL}?search=${query}&corpus=${corpus}&max_results=${max_results}`;
     //const API_URL = "http://localhost:8000/documents/"
-    fetch(`${API_URL}?search=${query}`)
+    fetch(`${FULL_URL}`)
       .then((res) => res.json())
       .then(
         (output) => {
-          console.log(`Query: '${query}' returned ${output.results.length} results`);
+          console.log(`Query: '${query}', corpus: '${corpus}', max_results: '${max_results}' returned ${output.results.length} results`);
           //console.log(output);
           this.setState({
             isLoaded: true,
@@ -88,24 +103,26 @@ export class SearchBox extends React.Component {
     }
     if (!isLoaded) {
       return (
-        <div className="container mx-auto flex flex-row mb-3">
-        <input
-          id="query"
-          className="container w-2/3 px-10 mr-2 focus:outline-2 outline-orange-300 bg-orange-100 rounded text-sm text-gray-500"
-          type="text"
-          placeholder="Search query..."
-          onKeyDown={(e) => {
-            if (e.key === "Enter") {
-              this.getAPI(document.getElementById("query").value);
-            }
-          }}
-        />
-        <button
-          onClick={() => this.getAPI(document.getElementById("query").value)}
-          className="container w-1/3 h-10 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white rounded text-sm"
-        >
-          Search Class Content
-        </button>
+        <div>
+          <div className="container mx-auto flex flex-row mb-3">
+          <input
+            id="query"
+            className="container w-2/3 px-10 mr-2 focus:outline-2 outline-orange-300 bg-orange-100 rounded text-sm text-gray-500"
+            type="text"
+            placeholder="Search query..."
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                this.searchAPI(document.getElementById("query").value, getSearchTypeValue(), getMaxResultsValue());
+              }
+            }}
+          />
+          <button
+            onClick={() => this.searchAPI(document.getElementById("query").value)}
+            className="container w-1/3 h-10 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white rounded text-sm"
+          >
+            Search Class Content
+          </button>
+          </div>
         </div>
       )
     }
@@ -120,12 +137,12 @@ export class SearchBox extends React.Component {
             placeholder="Search query..."
             onKeyDown={(e) => {
               if (e.key === "Enter") {
-                this.getAPI(document.getElementById("query").value);
+                this.searchAPI(document.getElementById("query").value, getSearchTypeValue(), getMaxResultsValue());
               }
             }}
           />
           <button
-            onClick={() => this.getAPI(document.getElementById("query").value)}
+            onClick={() => this.searchAPI(document.getElementById("query").value)}
             className="container w-1/3 h-10 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white rounded text-sm"
           >
             Search Class Content
@@ -147,12 +164,12 @@ export class SearchBox extends React.Component {
             placeholder="Search query..."
             onKeyDown={(e) => {
               if (e.key === "Enter") {
-                this.getAPI(document.getElementById("query").value);
+                this.searchAPI(document.getElementById("query").value, getSearchTypeValue(), getMaxResultsValue());
               }
             }}
           />
           <button
-            onClick={() => this.getAPI(document.getElementById("query").value)}
+            onClick={() => this.searchAPI(document.getElementById("query").value)}
             className="container w-1/3 h-10 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white rounded text-sm"
           >
             Search Class Content
@@ -248,12 +265,12 @@ export class SearchBox extends React.Component {
             placeholder="Search query..."
             onKeyDown={(e) => {
               if (e.key === "Enter") {
-                this.getAPI(document.getElementById("query").value);
+                this.searchAPI(document.getElementById("query").value, getSearchTypeValue(), getMaxResultsValue());
               }
             }}
           />
           <button
-            onClick={() => this.getAPI(document.getElementById("query").value)}
+            onClick={() => this.searchAPI(document.getElementById("query").value)}
             className="container w-1/3 h-10 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white rounded text-sm"
           >
             Search Class Content
