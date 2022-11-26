@@ -1,3 +1,4 @@
+import logging
 import metapy
 from summarizer.extractive import ExtractiveSummarizer
 
@@ -8,38 +9,27 @@ class Engine:
     def __init__(self, corpus):
         # make extensible?
         self.corpus = corpus
-        self.CONFIG_PATH = "corpora/" + self.corpus + "/" + self.corpus + "-config.toml"
-        self.index = metapy.index.make_inverted_index(self.CONFIG_PATH)
+        self.config_path = "corpora/" + self.corpus + "/" + self.corpus + "-config.toml"
+        self.index = metapy.index.make_inverted_index(self.config_path)
         self.num_docs = self.index.num_docs()
         self.unique_terms = self.index.unique_terms()
         self.avg_doc_length = self.index.avg_doc_length()
         self.total_corpus_terms = self.index.total_corpus_terms()
 
-        print(
-            "[{}] corpus created: num_docs={} unique_terms={} avg_doc_length={} total_corpus_terms={}".format(
-                self.corpus,
-                self.num_docs,
-                self.unique_terms,
-                self.avg_doc_length,
-                self.total_corpus_terms,
-            )
+        logging.info(
+            "[{}] corpus created: {}".format(self.corpus, self.__corpus_info())
         )
-        self.ranker = metapy.index.OkapiBM25(k1=50, b=0, k3=0)
-        print("[{}] ranker created".format(self.corpus))
 
     def query_corpus(self, query_txt, max_results):
 
-        print(
-            "[{}] querying index: search={} max_results={}".format(
-                self.corpus, query_txt.strip(), max_results
-            )
-        )
+        query_info = {"search": query_txt, "max_results": max_results}
+        logging.info("[{}] querying index: {}".format(self.corpus, query_info))
 
         query = metapy.index.Document()
         query.content(query_txt.strip())
-        results = self.ranker.score(self.index, query, max_results)
+        results = self.__ranker().score(self.index, query, max_results)
 
-        print("[{}] results found: {}".format(self.corpus, len(results)))
+        logging.info("[{}] results found: {}".format(self.corpus, len(results)))
 
         search_results = []
         for i, result in enumerate(results):
@@ -50,12 +40,6 @@ class Engine:
             txt_path = "{}{}.txt".format("corpora/lectures/", video_id)
             with open(txt_path) as file:
                 full_text = file.read()
-
-            # extracts some relevant sentences, that include the search terms
-            summarizer = ExtractiveSummarizer(full_text)
-            summary = summarizer.extractive_summary(
-                num_sentences=2, highlight_query=query_txt.split()
-            )
 
             search_result = {
                 "03_video_id": video_id,
@@ -69,7 +53,7 @@ class Engine:
                 "08_full_txt": full_text,
                 "09_section_txt": metadata.get("content"),
                 "10_start_time": metadata.get("start_time"),
-                "11_summary": summary,
+                "11_summary": self.__summary(full_text, query_txt),
             }
             search_results.append(search_result)
 
@@ -80,3 +64,22 @@ class Engine:
         }
 
         return output_dict
+
+    def __ranker(self):
+        logging.info("[{}] ranker created".format(self.corpus))
+        return metapy.index.OkapiBM25(k1=50, b=0, k3=0)
+
+    def __summary(self, full_text, query_txt):
+        # extracts some relevant sentences, that include the search terms
+        summarizer = ExtractiveSummarizer(full_text)
+        return summarizer.extractive_summary(
+            num_sentences=2, highlight_query=query_txt.split()
+        )
+
+    def __corpus_info(self):
+        return {
+            "num_docs": self.num_docs,
+            "unique_terms": self.unique_terms,
+            "avg_doc_length": self.avg_doc_length,
+            "total_corpus_terms": self.total_corpus_terms,
+        }

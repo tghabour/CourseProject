@@ -1,5 +1,6 @@
 from heapq import nlargest
 import re
+import logging
 import spacy
 
 NLP = spacy.load("en_core_web_sm")
@@ -27,6 +28,7 @@ class ExtractiveSummarizer:
         Returns:
             string: summary of text with highlighting of query params
         """
+        logging.info("[ExtractiveSummarizer] generating summary")
         sentences = self.__sentences()
         unigrams = self.__unigrams()
         sentence_scores = self.__sentence_scores(sentences, highlight_query, unigrams)
