@@ -862,3 +862,7 @@ video {
   outline-width: 2px;
 }
 
+#pointer {
+  cursor: pointer;
+}
+

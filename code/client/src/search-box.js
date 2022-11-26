@@ -193,7 +193,7 @@ export class SearchBox extends React.Component {
             <div className="container mx-auto w-full">
               <ResponsivePlayer video={currentVideo} />
               <div className=" text-center my-auto ">
-                <a onClick={()=>this.loadResult(results, previousResultIndex)} className="pl-5 inline-flex w-20 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white text-xs p-1 rounded mr-4">
+                <a id="pointer" onClick={()=>this.loadResult(results, previousResultIndex)} className="pl-5 inline-flex w-20 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white text-xs p-1 rounded mr-4">
                 Previous
                 </a>
                 <a href={currentVideo} className="pl-5 inline-flex w-20 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white text-xs p-1 rounded mr-4">
@@ -244,7 +244,7 @@ export class SearchBox extends React.Component {
                     </svg>
                   </span>
                 </a>
-                <a onClick={()=>this.loadResult(results, nextResultIndex)} className="pl-5 pt-5 inline-flex w-20 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white text-xs p-1 rounded mr-4">
+                <a id="pointer" onClick={()=>this.loadResult(results, nextResultIndex)} className="pl-5 inline-flex w-20 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white text-xs p-1 rounded mr-4">
                   Next
                 </a>
               </div>
