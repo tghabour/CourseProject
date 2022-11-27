@@ -119,3 +119,18 @@ python prep.py
 ```
 
 Each directory in `code/prep` will result in a new corpus. The corpus creator was modelled on file names downloaded by `coursera-dl` for the `cs-410` course and may not work on others.
+
+## References
+
+### The following resources were used when implementing the project:
+
+1. https://spacy.io/usage
+2. https://www.activestate.com/blog/how-to-do-text-summarization-with-python/
+3. https://meta-toolkit.org/
+4. https://github.com/meta-toolkit/metapy
+5. https://www.djangoproject.com/
+6. https://www.digitalocean.com/
+7. https://reactjs.org/
+8. https://pypi.org/project/bert-extractive-summarizer/
+9. https://pypi.org/project/transformers/
+10. https://en.wikipedia.org/wiki/Natural_language_processing
