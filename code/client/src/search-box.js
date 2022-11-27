@@ -51,14 +51,9 @@ export class SearchBox extends React.Component {
       query: query,
     });
 
-    const API_URL =
-      process.env.NODE_ENV === "development"
-        ? "http://localhost:8000/documents/"
-        : "https://sea-turtle-app-7y54u.ondigitalocean.app/documents/";
+    const url = `${process.env.REACT_APP_API_URL}?search=${query}&corpus=${corpus}&max_results=${max_results}`;
 
-    const FULL_URL = `${API_URL}?search=${query}&corpus=${corpus}&max_results=${max_results}`;
-
-    fetch(`${FULL_URL}`)
+    fetch(url)
       .then((res) => res.json())
       .then(
         (output) => {
