@@ -2,7 +2,7 @@ import React from "react";
 import { TextBox } from "./text-box";
 import { ResponsivePlayer } from "./player";
 
-const processText = (text) => {
+const processText = (text) => { // Function to remove [Sound] and [Music] tags from text, then only get 500 first characters
   let output = ""
   output = text.slice(0, 500) + ' ...'
   output = output.replace(/\[SOUND\]/g, '')
@@ -10,7 +10,7 @@ const processText = (text) => {
   return output
 }
 
-const getSearchTypeValue = () => {
+const getSearchTypeValue = () => { // Function to get the value of the search type radio button
   let searchType = document.getElementsByName("search-type")
   for (let i = 0; i < searchType.length; i++) {
     if (searchType[i].checked) {
@@ -19,7 +19,7 @@ const getSearchTypeValue = () => {
   }
 }
 
-const getMaxResultsValue = () => {
+const getMaxResultsValue = () => { // Function to get the value of the max results select option
   let maxResults = document.getElementById("search-max-results")
   return maxResults.options[maxResults.selectedIndex].value
 }
@@ -42,7 +42,7 @@ export class SearchBox extends React.Component {
       currentPDF: ""
     };
   }
-  searchAPI(query, corpus, max_results) {
+  searchAPI(query, corpus, max_results) { // Function to call the search API
     this.setState({
       query: query,
     })
@@ -55,15 +55,11 @@ export class SearchBox extends React.Component {
       .then(
         (output) => {
           console.log(`Query: '${query}', corpus: '${corpus}', max_results: '${max_results}' returned ${output.results.length} results`);
-          //console.log(output);
           this.setState({
             isLoaded: true,
             results: output.results,
           });
         },
-        // Note: it's important to handle errors here
-        // instead of a catch() block so that we don't swallow
-        // exceptions from actual bugs in components.
         (error) => {
           this.setState({
             isLoaded: true,
@@ -73,7 +69,7 @@ export class SearchBox extends React.Component {
       )
   }
 
-  loadResult(results, index) {
+  loadResult(results, index) { // Function to load a video and download links from the results
     const results_len = results.length;
     let prev_index = index - 1;
     let next_index = index + 1;
@@ -97,11 +93,10 @@ export class SearchBox extends React.Component {
 
   render() {
     const { error, isLoaded, results, query, resultLoaded, previousResultIndex, nextResultIndex, currentVideo, currentText, currentPDF, currentDisplayText } = this.state;
-    //console.log(texts)
     if (error) {
       return <div>Error: {error.message}</div>;
     }
-    if (!isLoaded) {
+    if (!isLoaded) { // If the search button has not been clicked yet, display the search options
       return (
         <div>
           <div className="container mx-auto flex flex-row mb-3">
@@ -126,7 +121,7 @@ export class SearchBox extends React.Component {
         </div>
       )
     }
-    if (results.length === 0 && isLoaded) { // Search button clicked but no results
+    if (results.length === 0 && isLoaded) { // Search button clicked but no results, display error message
       return (
         <div>
           <div className="container mx-auto flex flex-row mb-3">
@@ -153,7 +148,7 @@ export class SearchBox extends React.Component {
 
       ) 
     }
-    if (resultLoaded) {
+    if (resultLoaded) { // If a result has been loaded, display the video and download links
       return (
         <div>
           <div className="container mx-auto flex flex-row mb-3">
@@ -255,7 +250,7 @@ export class SearchBox extends React.Component {
         </div>
       )
     }
-    return (
+    return ( // Default, display search box only
       <div>
         <div className="container mx-auto flex flex-row mb-3">
           <input
