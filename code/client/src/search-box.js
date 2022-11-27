@@ -48,7 +48,7 @@ export class SearchBox extends React.Component {
     })
     const API_URL =
       "https://sea-turtle-app-7y54u.ondigitalocean.app/documents/";
-    const FULL_URL = `${API_URL}?search=${query}&corpus=${corpus}&max_results=${max_results}`;
+    const FULL_URL = `${API_URL}?search=${query}?corpus=${corpus}?max_results=${max_results}`;
     //const API_URL = "http://localhost:8000/documents/"
     fetch(`${FULL_URL}`)
       .then((res) => res.json())
@@ -112,7 +112,7 @@ export class SearchBox extends React.Component {
             }}
           />
           <button
-            onClick={() => this.searchAPI(document.getElementById("query").value)}
+            onClick={() => this.searchAPI(document.getElementById("query").value, getSearchTypeValue(), getMaxResultsValue())}
             className="container w-1/3 h-10 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white rounded text-sm"
           >
             Search Class Content
@@ -137,7 +137,7 @@ export class SearchBox extends React.Component {
             }}
           />
           <button
-            onClick={() => this.searchAPI(document.getElementById("query").value)}
+            onClick={() => this.searchAPI(document.getElementById("query").value, getSearchTypeValue(), getMaxResultsValue())}
             className="container w-1/3 h-10 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white rounded text-sm"
           >
             Search Class Content
@@ -164,7 +164,7 @@ export class SearchBox extends React.Component {
             }}
           />
           <button
-            onClick={() => this.searchAPI(document.getElementById("query").value)}
+            onClick={() => this.searchAPI(document.getElementById("query").value, getSearchTypeValue(), getMaxResultsValue())}
             className="container w-1/3 h-10 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white rounded text-sm"
           >
             Search Class Content
@@ -265,7 +265,7 @@ export class SearchBox extends React.Component {
             }}
           />
           <button
-            onClick={() => this.searchAPI(document.getElementById("query").value)}
+            onClick={() => this.searchAPI(document.getElementById("query").value, getSearchTypeValue(), getMaxResultsValue())}
             className="container w-1/3 h-10 hover:bg-orange-600 bg-orange-300 text-orange-900 hover:text-white rounded text-sm"
           >
             Search Class Content

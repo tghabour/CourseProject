@@ -10,7 +10,7 @@ return (
             <span className="mr-2"> Search Slides 
             </span>
             <label className="mr-2 ml-2">Search top </label>
-            <select className="" name="search-max-results" id="search-max-results" readOnly={true}>
+            <select className="" id="search-max-results">
               <option value="5">5</option>
               <option value="6">6</option>
               <option value="7">7</option>
