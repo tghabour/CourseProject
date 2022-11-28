@@ -60,8 +60,10 @@ Example:
 ## Running the Application Locally
 
 ### Prerequisites
-- nodejs 16+
-- python 3.9+
+- [nodejs 16+](https://nodejs.org/en/download/package-manager/)
+- [yarn](https://classic.yarnpkg.com/en/docs/install)
+- python 3.5.6 required for metapy
+    - Can be installed with [conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html): 
 - MacOS or Linux recommended
 
 #### Client
