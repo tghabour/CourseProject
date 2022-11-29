@@ -87,6 +87,8 @@ cd code/api
 conda create --name lecture_search python=3.5.6
 # activate it
 conda activate lecture_search
+# upgrade pip
+pip install --upgrade pip
 # install the dependencies
 pip install -r requirements.txt
 # run the database migrations
