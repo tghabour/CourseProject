@@ -1,17 +1,5 @@
 import React from "react";
-import { TextBox } from "./text-box";
-import { ResponsivePlayer } from "./player";
-import { DownloadButton } from "./download-button";
-import { NavButton } from "./nav-button";
-
-const processText = (text) => {
-  // Function to remove [Sound] and [Music] tags from text, then only get 500 first characters
-  let output = "";
-  output = text.slice(0, 500) + " ...";
-  output = output.replace(/\[SOUND\]/g, "");
-  output = output.replace(/\[MUSIC\]/g, "");
-  return output;
-};
+import { SearchResults } from "./search_results";
 
 const getSearchTypeValue = () => {
   // Function to get the value of the search type radio button
@@ -37,14 +25,6 @@ export class SearchBox extends React.Component {
       isLoaded: false,
       results: [],
       query: "",
-      resultLoaded: false,
-      currentResultIndex: null,
-      previousResultIndex: null,
-      nextResultIndex: null,
-      currentVideo: "",
-      currentText: "",
-      currentDisplayText: "",
-      currentPDF: "",
     };
   }
   searchAPI(query, corpus, max_results) {
@@ -74,84 +54,6 @@ export class SearchBox extends React.Component {
           });
         }
       );
-  }
-
-  loadResult(results, index) {
-    // Function to load a video and download links from the results
-    const resultsLength = results.length;
-    let prevIndex = index === 0 ? resultsLength - 1 : index - 1;
-    let nextIndex = index === resultsLength - 1 ? 0 : index + 1;
-
-    this.setState({
-      resultLoaded: true,
-      currentResultIndex: index,
-      previousResultIndex: prevIndex,
-      nextResultIndex: nextIndex,
-      currentVideo:
-        results[index]["05_vid_path"] + `#t=${results[index]["10_start_time"]}`,
-      currentText: results[index]["06_txt_path"],
-      currentPDF: results[index]["07_pdf_path"],
-      currentDisplayText: results[index]["08_full_txt"],
-    });
-  }
-
-  showResults() {
-    const { results, resultLoaded } = this.state;
-    return (
-      <>
-        <div className="container mx-auto max-h-80 overflow-x-auto mb-3">
-          {results.map((result, index) => (
-            <div
-              key={index}
-              className="button flex flex-col hover:bg-orange-50 rounded p-3 object-fit"
-            >
-              <a
-                id="pointer"
-                onClick={() => this.loadResult(results, index)}
-                className="hover:underline text-sky-400 visited:text-indigo-800"
-              >
-                {result["04_title"]}
-              </a>
-              <span className="text-gray-500">
-                {processText(result["08_full_txt"])}
-              </span>
-            </div>
-          ))}
-        </div>
-        {resultLoaded && this.showResultDetails()}
-      </>
-    );
-  }
-
-  showResultDetails() {
-    const {
-      results,
-      previousResultIndex,
-      nextResultIndex,
-      currentVideo,
-      currentText,
-      currentPDF,
-      currentDisplayText,
-    } = this.state;
-    return (
-      <>
-        <div className="flex flex-row w-full">
-          <div className="container w-1/3"></div>
-          <div className="container mx-auto w-full">
-            <ResponsivePlayer video={currentVideo} />
-            <div className=" text-center my-auto ">
-              <NavButton label="Previous" handleClick={() => this.loadResult(results, previousResultIndex)}/>
-              <DownloadButton label="MP4" url={currentVideo}/>
-              <DownloadButton label="PDF" url={currentPDF}/>
-              <DownloadButton label="Text" url={currentText}/>
-              <NavButton label="Next" handleClick={() => this.loadResult(results, nextResultIndex)}/>
-            </div>
-          </div>
-          <div className="container w-1/3"></div>
-        </div>
-        <TextBox text={currentDisplayText} />
-      </>
-    );
   }
 
   showNoResults() {
@@ -199,9 +101,11 @@ export class SearchBox extends React.Component {
             Search Class Content
           </button>
         </div>
-        {isLoaded && results.length === 0
-          ? this.showNoResults()
-          : this.showResults()}
+        {isLoaded && results.length === 0 ? (
+          this.showNoResults()
+        ) : (
+          <SearchResults results={results} />
+        )}
       </div>
     );
   }
