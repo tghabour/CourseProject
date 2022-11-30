@@ -1,11 +1,9 @@
 from unittest import skip
 from django.test import SimpleTestCase
-# TODO: summarizer not working because spacy won't install on MacOS
-# from summarizer.extractive import ExtractiveSummarizer
+from summarizer.extractive import ExtractiveSummarizer
 
 
 class ExtractiveSummarizerTest(SimpleTestCase):
-    @skip("summarizer not working")
     def test_summary(self):
         with open("summarizer/test_data/article1.txt") as file:
             text = file.read()
@@ -15,7 +13,6 @@ class ExtractiveSummarizerTest(SimpleTestCase):
         expected_summary = 'Focus areas of the time included research on rule-based parsing (e.g., the development of HPSG as a computational operationalization of generative grammar), morphology (e.g., two-level morphology), semantics (e.g., Lesk algorithm), reference (e.g., within Centering Theory) and other areas of natural language understanding (e.g., in the Rhetorical Structure Theory). Despite the popularity of machine learning in NLP research, symbolic methods are still (2020) commonly used: when the amount of training data is insufficient to successfully apply machine learning methods, e.g., for the machine translation of low-resource languages such as provided by the Apertium system, for preprocessing in NLP pipelines, e.g., tokenization, or for postprocessing and transforming the output of NLP pipelines, e.g., for knowledge extraction from syntactic parses. The process of reducing inflected (or sometimes derived) words to a base form (e.g., "close" will be the root for "closed", "closing", "close", "closer" etc.). English has fairly simple morphology, especially inflectional morphology, and thus it is often possible to ignore this task entirely and simply model all possible forms of a word (e.g., "open, opens, opened, opening") as separate words.'
         self.assertEqual(expected_summary, result)
 
-    @skip("summarizer not working")
     def test_summary_highlighting(self):
         with open("summarizer/test_data/article1.txt") as file:
             text = file.read()

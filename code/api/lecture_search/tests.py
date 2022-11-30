@@ -14,8 +14,7 @@ class EngineTest(SimpleTestCase):
         self.assertIn("corpus", result)
         self.assertIn("query", result)
         self.assertEqual("test", result["query"])
-        # TODO: summarizer not working because spacy won't install on MacOS
-        # for search_result in result["results"]:
-        #     self.assertIn("11_summary", search_result)
-        # expected_summary = "So, the idea of the statistical significance <span class='highlight'>test</span> is basically to assess the variants across these different queries. So, in order to create the <span class='highlight'>test</span> collection, we have to create a set of queries."
-        # self.assertEqual(expected_summary, result["results"][0]["11_summary"])
+        for search_result in result["results"]:
+            self.assertIn("11_summary", search_result)
+        expected_summary = "Now in Willcoxan <span class='highlight'>test</span>, it's a non-parametric <span class='highlight'>test</span>, and we would be not only looking at the signs, we'll be also looking at the magnitude of the difference. So, the idea of the statistical significance <span class='highlight'>test</span> is basically to assess the variants across these different queries."
+        self.assertEqual(expected_summary, result["results"][0]["11_summary"])
