@@ -90,7 +90,7 @@ conda activate lecture_search
 # upgrade pip
 pip install --upgrade pip
 # install the dependencies
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 # run the database migrations
 python manage.py migrate
 # run the tests

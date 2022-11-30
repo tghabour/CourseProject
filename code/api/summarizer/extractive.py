@@ -13,6 +13,9 @@ class ExtractiveSummarizer:
     """
 
     def __init__(self, text):
+        # Remove any `[SOUND]` and `[MUSIC]` since they don't add any searchable information
+        text = re.sub(r"\[MUSIC\]", "", text)
+        text = re.sub(r"\[SOUND\]", "", text)
         self.text = text
         self.doc = NLP(self.text)
 
