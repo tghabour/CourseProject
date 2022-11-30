@@ -1,7 +1,6 @@
 import logging
 import metapy
-# TODO: summarizer not working because spacy won't install on MacOS
-# from summarizer.extractive import ExtractiveSummarizer
+from summarizer.extractive import ExtractiveSummarizer
 
 
 class Engine:
@@ -54,8 +53,7 @@ class Engine:
                 "08_full_txt": full_text,
                 "09_section_txt": metadata.get("content"),
                 "10_start_time": metadata.get("start_time"),
-                # TODO: summarizer not working because spacy won't install on MacOS
-                # "11_summary": self.__summary(full_text, query_txt),
+                "11_summary": self.__summary(full_text, query_txt),
             }
             search_results.append(search_result)
 
@@ -72,12 +70,10 @@ class Engine:
         return metapy.index.OkapiBM25(k1=50, b=0, k3=0)
 
     def __summary(self, full_text, query_txt):
-        # TODO: summarizer not working because spacy won't install on MacOS
-        # extracts some relevant sentences, that include the search terms
-        # summarizer = ExtractiveSummarizer(full_text)
-        # return summarizer.extractive_summary(
-        #     num_sentences=2, highlight_query=query_txt.split()
-        # )
+        summarizer = ExtractiveSummarizer(full_text)
+        return summarizer.extractive_summary(
+            num_sentences=2, highlight_query=query_txt.split()
+        )
         pass
 
     def __corpus_info(self):

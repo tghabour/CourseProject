@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+span.highlight {
+  font-weight: bold;
+}

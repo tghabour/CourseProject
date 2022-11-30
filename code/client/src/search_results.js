@@ -103,9 +103,10 @@ export class SearchResults extends React.Component {
               >
                 {result["04_title"]}
               </a>
-              <span className="text-gray-500">
-                {this.processText(result["08_full_txt"])}
-              </span>
+              <span
+                className="text-gray-500"
+                dangerouslySetInnerHTML={{ __html: result["11_summary"] }}
+              ></span>
             </div>
           ))}
         </div>
