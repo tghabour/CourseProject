@@ -60,37 +60,23 @@ Example:
 ## Running the Application Locally
 
 ### Prerequisites
+- MacOS or Linux recommended (not tested on Windows)
 - [nodejs 16+](https://nodejs.org/en/download/package-manager/)
 - [yarn](https://classic.yarnpkg.com/en/docs/install)
-- python 3.5.6 required for metapy
-    - Can be installed with [conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html): 
-- MacOS or Linux recommended
-
-#### Client
-
-```sh
-cd code/client
-# install the dependencies
-yarn install
-# run the application
-yarn run
-```
-
-The Client is available at the following URL: https://localhost:3000
-
+- python 3.5.6 
+    - We've found the most reliable way of installing python 3.5.6 and all of the python dependencies is by using [conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html).
 
 #### API
 
+The API is the server-side component that handles HTTP requests from the Client application.
+This should be started in a terminal and left running before starting the Client application.
+
 ```sh
 cd code/api
-# create a conda environment
-conda create --name lecture_search python=3.5.6
+# create a conda environment with all python dependencies
+conda env create -f environment.yml
 # activate it
 conda activate lecture_search
-# upgrade pip
-pip install --upgrade pip
-# install the dependencies
-pip install -r requirements-dev.txt
 # run the database migrations
 python manage.py migrate
 # run the tests
@@ -101,9 +87,25 @@ python lecture_search_cli.py
 gunicorn api.wsgi
 ```
 
-The API is available the following URL: http://localhost:8000/documents
+This will start an HTTP server that serves requests at the following URL: http://localhost:8000/documents
 
-Try out a document search through the API: http://localhost:8000/documents?search=term%20frequency&corpus=lectures&max_results=5
+Example request: http://localhost:8000/documents?search=paradigmatic%20relationship&corpus=cs-410&max_results=5
+
+
+#### Client
+
+The Client is a browser based graphical user interface that issues HTTP requests to the API and displays user-friendly responses.
+These commands must be run in a separate terminal instance from the API, and left running while testing the application.
+
+```sh
+cd code/client
+# install the dependencies
+yarn install
+# run the application
+yarn start
+```
+
+The Client is available at the following URL: https://localhost:3000
 
 
 #### Corpus creation

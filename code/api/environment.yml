@@ -1,0 +1,17 @@
+name: lecture_search
+channels:
+  - conda-forge
+dependencies:
+  - python==3.5.6
+  - pip==20.3.4
+  # uses a different version of spacy than requirements.txt
+  # because 2.3.8 would not build on MacOS
+  - spacy
+  - pip:
+    - numpy==1.16.1
+    - python-dotenv==0.20.0
+    - gunicorn==20.1.0
+    - django==2.2.28
+    - metapy==0.2.13
+    - django-cors-headers==3.5.0
+    - en_core_web_sm@https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz
