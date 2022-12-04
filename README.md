@@ -86,6 +86,8 @@ python lecture_search_cli.py
 # run the api
 gunicorn api.wsgi
 ```
+<img width="558" alt="image" src="https://user-images.githubusercontent.com/94029406/205476050-c894e533-627b-4e25-9123-75d0d9a40fcf.png">
+
 
 This will start an HTTP server that serves requests at the following URL: http://localhost:8000/documents
 
