@@ -44,7 +44,7 @@ Upon selecting one of the links provided, an embedded video player appears and b
 
 
 
-![Screenshot 2022-12-05 at 9.59.30 AM](../../../../../../../Desktop/Screenshot 2022-12-05 at 9.59.30 AM.png)
+![Screenshot 2022-12-05 at 9.59.30 AM](https:/user-images.githubusercontent.com/45109940/205754049-27e7db39-db42-4435-82ed-86d9277987e3.png)
 
 In addition to retrieving and displaying the desired/queried content, the application also allows the user to download the video in MP4 format, a PDF of the applicable slides, or text transcription for each of the associated results. Users also have the ability to scroll through the returned results with the "previous" and "next" buttons.
 
