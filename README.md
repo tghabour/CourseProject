@@ -10,7 +10,7 @@ Online learning platforms and MOOCs such as Coursera have democratized education
 
 However, in their current state, most MOOCs are not fully mature platforms and do not provide users with effective tools to quickly find and access specific content. In general, revisiting a target topic requires considerable effort on the part of the user and often involves clicking through multiple (potentially) relevant lectures and exhaustively scrubbing through videos to access the concept of interest.
 
-[SmartMOOCs](https://smartmoocs.web.illinois.edu/) is an experimental MOOC platform created at UIUC that serves as a motivating example by demonstrating how advanced features can augment existing technology and enhance the student experience. At present, the lectures on SmartMOOCs are uniformly partitioned into one-minute segments acting as proto-topics, which does not accurately represent topics. A more effective approach could be to segment lectures based on the slides in a slideshow - one slide per topic. This approach benefits from using the same paradigm of information segmentation used in creating the slideshows, where each slide typically contains one key idea. A topic found based on the transcript or slide text would thus have a likely logical beginning and end, which creates new opportunities for presenting results to a user, for example as a playlist.
+[SmartMOOCs](https://smartmoocs.web.illinois.edu/) is an experimental MOOC platform created at UIUC that serves as a motivating example by demonstrating how advanced features can augment existing technology and enhance the student experience. At present, the lectures on [SmartMOOCs](https://smartmoocs.web.illinois.edu/) are uniformly partitioned into one-minute segments acting as proto-topics, which does not accurately represent topics. A more effective approach could be to segment lectures based on the slides in a slideshow - one slide per topic. This approach benefits from using the same paradigm of information segmentation used in creating the slideshows, where each slide typically contains one key idea. A topic found based on the transcript or slide text would thus have a likely logical beginning and end, which creates new opportunities for presenting results to a user, for example as a playlist.
 
 ### Proposed Solution
 
@@ -36,21 +36,18 @@ Using the app to search is intuitive and straightforward - simply specify whethe
 
 The application then returns links to relevant course content based on the user's query specifications and provides a brief excerpt/summary for each result extracted from the applicable lecture transcript.
 
-
-
 ![Screenshot 2022-12-05 at 9.59.03 AM](https://user-images.githubusercontent.com/45109940/205754758-cabf9c3c-4091-461f-890d-953a592a8b54.png)
 
-Upon selecting one of the links provided, an embedded video player appears and begins playing the applicable content. If the "Search Lectures" option was selected, the video will start playing from the beginning of the lecture. If the "Search Slides" option was selected, the returned results are **more granular in nature and the ....**
+Upon selecting one of the links provided, an embedded video player appears and begins playing the applicable content:
 
-
+- If the *"Search Lectures"* option was selected, the video will start playing from the beginning of the lecture. 
+- If the *"Search Slides"* option was selected, the application will automatically skip to the appropriate timestamp within the lecture video and begin there (since the returned results are more specific).
 
 ![Screenshot 2022-12-05 at 9.59.30 AM](https://user-images.githubusercontent.com/45109940/205754604-1389385d-04f8-41b2-94b6-c2469e2ac850.png)
 
 
 
-
-
-In addition to retrieving and displaying the desired/queried content, the application also allows the user to download the video in MP4 format, a PDF of the applicable slides, or text transcription for each of the associated results. Users also have the ability to scroll through the returned results with the "previous" and "next" buttons.
+In addition to retrieving and displaying the desired/queried content, the application also allows the user to download the video in MP4 format, a PDF of the applicable slides, or the text transcription for each of the associated results. Users also have the ability to advance forward and backward among the returned results using the "previous" and "next" buttons below the video player.
 
 ### Running the Application Locally
 
@@ -76,20 +73,32 @@ conda activate lecture_search
 python manage.py migrate
 # run the tests
 python manage.py test
-# try searching from the command line (optional)
-python lecture_search_cli.py
 # run the api
 gunicorn api.wsgi
 ```
 
-<img width="558" alt="image" src="https://user-images.githubusercontent.com/94029406/205476050-c894e533-627b-4e25-9123-75d0d9a40fcf.png">
-
-
 This will start an HTTP server that serves requests at the following URL: http://localhost:8000/documents
+
+Example request: http://localhost:8000/documents?search=paradigmatic%20relationship&corpus=cs-410&max_results=5
 
 **Add instructions for shutting down port 8000 if already in use?**
 
-Example request: http://localhost:8000/documents?search=paradigmatic%20relationship&corpus=cs-410&max_results=5
+#### CLI (Command Line Interface)
+
+Alternatively, you may also try running the API directly from the command line:
+
+```sh
+# try searching from the command line (optional)
+python lecture_search_cli.py
+```
+
+Running the command above will prompt the user for three parameters for each request:
+
+1. Search query 
+2. The corpus type (either "lectures" for lecture-level results or "cs-410" for slide-level results; default = 'lectures')
+3. Number of results to return (default = 5)
+
+<img width="558" alt="image" src="https://user-images.githubusercontent.com/94029406/205476050-c894e533-627b-4e25-9123-75d0d9a40fcf.png">
 
 
 #### Client
@@ -206,7 +215,7 @@ In principle, the same approach/implementation described above can be applied to
 - Ranking function testing and corpus validation 
 - Documentation and instructional video development
 
-**Rick Sucks**
+**Rick Suggs**
 
 - Client deployment
 - Integration, deployment, and testing
