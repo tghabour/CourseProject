@@ -27,7 +27,7 @@ The goal of this project is to implement enhancements to an intelligent learning
 
 The web app has been populated with Coursera content (slides, videos, and transcripts) for CS 410: Text Information Systems and can be accessed [here](https://stingray-app-3sdu7.ondigitalocean.app/).
 
-![Screenshot 2022-12-05 at 9.46.30 AM](../../../../../../../Desktop/Screenshot 2022-12-05 at 9.46.30 AM.png)
+![Screenshot 2022-12-05 at 9.46.30 AM](https://user-images.githubusercontent.com/45109940/205754860-f3dce1b6-433d-472e-87fb-9008a3737059.png)
 
 Using the app to search is intuitive and straightforward - simply specify whether you want the application to:
 
@@ -38,13 +38,17 @@ The application then returns links to relevant course content based on the user'
 
 
 
-![Screenshot 2022-12-05 at 9.59.03 AM](../../../../../../../Desktop/Screenshot 2022-12-05 at 9.59.03 AM.png)
+![Screenshot 2022-12-05 at 9.59.03 AM](https://user-images.githubusercontent.com/45109940/205754758-cabf9c3c-4091-461f-890d-953a592a8b54.png)
 
 Upon selecting one of the links provided, an embedded video player appears and begins playing the applicable content. If the "Search Lectures" option was selected, the video will start playing from the beginning of the lecture. If the "Search Slides" option was selected, the returned results are **more granular in nature and the ....**
 
 
 
-![Screenshot 2022-12-05 at 9.59.30 AM](https:/user-images.githubusercontent.com/45109940/205754049-27e7db39-db42-4435-82ed-86d9277987e3.png)
+![Screenshot 2022-12-05 at 9.59.30 AM](https://user-images.githubusercontent.com/45109940/205754604-1389385d-04f8-41b2-94b6-c2469e2ac850.png)
+
+
+
+
 
 In addition to retrieving and displaying the desired/queried content, the application also allows the user to download the video in MP4 format, a PDF of the applicable slides, or text transcription for each of the associated results. Users also have the ability to scroll through the returned results with the "previous" and "next" buttons.
 
