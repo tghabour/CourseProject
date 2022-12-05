@@ -113,7 +113,7 @@ The Client is available at the following URL: https://localhost:3000
 - The Lecture Search Engine was created with the [metapy](https://github.com/meta-toolkit/metapy) NLP toolkit. 
 - The Lecture Search Client was created with the [React](https://reactjs.org/) web application framework.
 - The Lecture Search API was created with the [Django](https://www.djangoproject.com/) web application framework.
-- All files including video, lecture text and slides are hosted on an [AWS S3](https://aws.amazon.com/pm/serv-s3/?trk=fecf68c9-3874-4ae2-a7ed-72b6d19c8034&sc_channel=ps&s_kwcid=AL!4422!3!536452728638!e!!g!!aws s3&ef_id=CjwKCAiAp7GcBhA0EiwA9U0mtrft7TmpTeSa6FKoKNxhCNYZcEZdpSHOHBdU0tKes0qKcUObcLHmCBoCR7oQAvD_BwE:G:s&s_kwcid=AL!4422!3!536452728638!e!!g!!aws s3) bucket.
+- All files including video, lecture text and slides are hosted on an [AWS S3](https://aws.amazon.com/pm/serv-s3/) bucket.
 
 The API and Client are automatically deployed to the Digital Ocean platform every time a commit is pushed to the main branch.
 
