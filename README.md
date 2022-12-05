@@ -29,7 +29,7 @@ The web app has been populated with Coursera content (slides, videos, and transc
 
 ![Screenshot 2022-12-05 at 9.46.30 AM](https://user-images.githubusercontent.com/45109940/205754860-f3dce1b6-433d-472e-87fb-9008a3737059.png)
 
-Using the app to search is intuitive and straightforward - simply specify whether you want the application to:
+Using the app to search CS 410 course content is intuitive and straightforward - simply specify whether you want the application to:
 
 - search across "Lectures" (entire lessons) or among individual "Slides", and 
 - how many search results you would like the application to return (between 5 and 10, inclusive)
