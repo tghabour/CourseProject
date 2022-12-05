@@ -208,7 +208,7 @@ In principle, the same approach/implementation described above can be applied to
 
 - Lecture-level corpus, metadata, and ranking function development
 
- - Documentation and 
+ - Documentation and dependency testing
 
 **Tina Tang**
 
@@ -217,7 +217,7 @@ In principle, the same approach/implementation described above can be applied to
 
 **Rick Suggs**
 
-- Client deployment
+- Solution architecture
 - Integration, deployment, and testing
 
 **Maciej Wieczorek**
