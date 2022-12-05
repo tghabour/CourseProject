@@ -6,7 +6,7 @@
 
 ### Problem Statement & Motivation 
 
-Online learning platforms and MOOCs such as Coursera have democratized education and enabled millions of students to access knowledge at a previously unthinkable scale. These platforms host thousands of hours of extremely rich content that not only expose their audiences to valuable concepts and ideas, but also serve as crucial reference materials after the content has been initially viewed (for example, while studying for an exam or upon attempting to implement a learned concept in the real world).
+Online learning platforms and MOOCs such as [Coursera](https://www.coursera.org/) have democratized education and enabled millions of students to access knowledge at a previously unthinkable scale. These platforms host thousands of hours of extremely rich content that not only expose their audiences to valuable concepts and ideas, but also serve as crucial reference materials after the content has been initially viewed (for example, while studying for an exam or upon attempting to implement a learned concept in the real world).
 
 However, in their current state, most MOOCs are not fully mature platforms and do not provide users with effective tools to quickly find and access specific content. In general, revisiting a target topic requires considerable effort on the part of the user and often involves clicking through multiple (potentially) relevant lectures and exhaustively scrubbing through videos to access the concept of interest.
 
@@ -25,7 +25,7 @@ The goal of this project is to implement enhancements to an intelligent learning
 
 ### Using the Deployed (Live) Web Application
 
-The web app has been populated with Coursera content (slides, videos, and transcripts) for CS 410: Text Information Systems and can be accessed [here](https://stingray-app-3sdu7.ondigitalocean.app/).
+The web app has been populated with [Coursera](https://www.coursera.org/) content (slides, videos, and transcripts) for CS 410: Text Information Systems and can be accessed [here](https://stingray-app-3sdu7.ondigitalocean.app/).
 
 ![Screenshot 2022-12-05 at 9.46.30 AM](https://user-images.githubusercontent.com/45109940/205754860-f3dce1b6-433d-472e-87fb-9008a3737059.png)
 
