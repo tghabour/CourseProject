@@ -10,7 +10,7 @@ Online learning platforms and MOOCs such as [Coursera](https://www.coursera.org/
 
 However, in their current state, most MOOCs are not fully mature platforms and do not provide users with effective tools to quickly find and access specific content. In general, revisiting a target topic requires considerable effort on the part of the user and often involves clicking through multiple (potentially) relevant lectures and exhaustively scrubbing through videos to access the concept of interest.
 
-[SmartMOOCs](https://smartmoocs.web.illinois.edu/) is an experimental MOOC platform created at UIUC that serves as a motivating example by demonstrating how advanced features can augment existing technology and enhance the student experience. At present, the lectures on [SmartMOOCs](https://smartmoocs.web.illinois.edu/) are uniformly partitioned into one-minute segments acting as proto-topics, which does not accurately represent topics. A more effective approach could be to segment lectures based on the slides in a slideshow - one slide per topic. This approach benefits from using the same paradigm of information segmentation used in creating the slideshows, where each slide typically contains one key idea. A topic found based on the transcript or slide text would thus have a likely logical beginning and end, which creates new opportunities for presenting results to a user, for example as a playlist.
+[SmartMOOCs](https://smartmoocs.web.illinois.edu/) is an experimental MOOC platform created at UIUC that serves as a motivating example that demonstrates how advanced features can augment existing technology and enhance the student experience. At present, the lectures on [SmartMOOCs](https://smartmoocs.web.illinois.edu/) are uniformly partitioned into one-minute segments acting as proto-topics, which does not accurately represent topics. A more effective approach could be to segment lectures based on the slides in a slideshow - one slide per topic. This approach benefits from using the same paradigm of information segmentation used in creating the slideshows, where each slide typically contains one key idea. A topic found based on the transcript or slide text would thus have a likely logical beginning and end, which creates new opportunities for presenting results to a user, for example as a playlist.
 
 ### Proposed Solution
 
@@ -77,11 +77,26 @@ python manage.py test
 gunicorn api.wsgi
 ```
 
-This will start an HTTP server that serves requests at the following URL: http://localhost:8000/documents
+This will start an HTTP server that serves requests. 
 
 Example request: http://localhost:8000/documents?search=paradigmatic%20relationship&corpus=cs-410&max_results=5
 
 **Add instructions for shutting down port 8000 if already in use?**
+
+
+#### Client
+
+The Client is a browser-based graphical user interface that issues HTTP requests to the API and displays user-friendly responses. These commands must be run in a separate terminal instance from the API, and left running while testing the application.
+
+```sh
+cd code/client
+# install the dependencies
+yarn install
+# run the application
+yarn start
+```
+
+The Client is available at the following URL: https://localhost:3000
 
 #### CLI (Command Line Interface)
 
@@ -101,21 +116,6 @@ Running the command above will prompt the user for three parameters for each req
 <img width="558" alt="image" src="https://user-images.githubusercontent.com/94029406/205476050-c894e533-627b-4e25-9123-75d0d9a40fcf.png">
 
 
-#### Client
-
-The Client is a browser-based graphical user interface that issues HTTP requests to the API and displays user-friendly responses. These commands must be run in a separate terminal instance from the API, and left running while testing the application.
-
-```sh
-cd code/client
-# install the dependencies
-yarn install
-# run the application
-yarn start
-```
-
-The Client is available at the following URL: https://localhost:3000
-
-
 
 ## Implementation Details
 
@@ -129,15 +129,6 @@ The API and Client are automatically deployed to the Digital Ocean platform ever
 The API only includes one endpoint: `/documents`. This endpoint accepts HTTP GET requests with a search query parameter. The search parameter is a space-separated list of words. The endpoint responds with a JSON formatted list of search results.
 
 The live API can be accessed [here](https://sea-turtle-app-7y54u.ondigitalocean.app/documents/).
-
-**ADD MORE EXPLANATION OF API USAGE**
-
-Example: **(something other than "test"?)**
-
-```sh
-(base) ➜  api git:(main) curl https://sea-turtle-app-7y54u.ondigitalocean.app/documents/\?search\=test
-{"corpus": "CS410_lectures", "query": "test", "results": [{"03_video_id": "W03_L06", "04_title": "Evaluation Of Tr Systems Practical Issues", "01_doc_id": 17, "06_txt_path": "path/to/W03_L06.txt", "02_score": 14.651, "05_vid_path": "path/to/W03_L06.mp4", "00_rank": 1}, {"03_video_id": "W03_L01", "04_title": "Evaluation Of Tr Systems", "01_doc_id": 12, "06_txt_path": "path/to/W03_L01.txt", "02_score": 11.206, "05_vid_path": "path/to/W03_L01.mp4", "00_rank": 2}, {"03_video_id": "W11_L02", "04_title": "Text Categorization Evaluation Part 1", "01_doc_id": 81, "06_txt_path": "path/to/W11_L02.txt", "02_score": 7.386, "05_vid_path": "path/to/W11_L02.mp4", "00_rank": 3}, {"03_video_id": "W12_L04", "04_title": "Contextual Text Mining Mining Causal Topics With Time Series Supervision", "01_doc_id": 89, "06_txt_path": "path/to/W12_L04.txt", "02_score": 4.599, "05_vid_path": "path/to/W12_L04.mp4", "00_rank": 4}, {"03_video_id": "W10_L06", "04_title": "Text Clustering Evaluation", "01_doc_id": 77, "06_txt_path": "path/to/W10_L06.txt", "02_score": 4.599, "05_vid_path": "path/to/W10_L06.mp4", "00_rank": 5}]}
-```
 
 ### Architecture Diagram (Deployed)
 
