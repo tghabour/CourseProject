@@ -4,7 +4,7 @@
 
 ## Introduction
 
-### Problem Statement & Motivation 
+### Problem Statement & Motivation
 
 Online learning platforms and MOOCs such as [Coursera](https://www.coursera.org/) have democratized education and enabled millions of students to access knowledge at a previously unthinkable scale. These platforms host thousands of hours of extremely rich content that not only expose their audiences to valuable concepts and ideas, but also serve as crucial reference materials after the content has been initially viewed (for example, while studying for an exam or upon attempting to implement a learned concept in the real world).
 
@@ -20,7 +20,7 @@ The goal of this project is to implement enhancements to an intelligent learning
 
 2. identify better ways to segment lectures based on topic transitions (stretch goal).
 
-   
+
 
 ## Usage
 
@@ -32,7 +32,7 @@ The web app has been populated with [Coursera](https://www.coursera.org/) conten
 
 Using the app to search CS 410 course content is intuitive and straightforward - simply specify whether you want the application to:
 
-- search across "Lectures" (entire lessons) or among individual "Slides", and 
+- search across "Lectures" (entire lessons) or among individual "Slides", and
 - how many search results you would like the application to return (between 5 and 10, inclusive)
 
 The application then returns links to relevant course content based on the user's query specifications and provides a brief excerpt/summary for each result extracted from the applicable lecture transcript.
@@ -41,7 +41,7 @@ The application then returns links to relevant course content based on the user'
 
 Upon selecting one of the links provided, an embedded video player appears and begins playing the applicable content:
 
-- If the *"Search Lectures"* option was selected, the video will start playing from the beginning of the lecture. 
+- If the *"Search Lectures"* option was selected, the video will start playing from the beginning of the lecture.
 - If the *"Search Slides"* option was selected, the application will automatically skip to the appropriate timestamp within the lecture video and begin there (since the returned results are more specific).
 
 ![Screenshot 2022-12-05 at 9.59.30 AM](https://user-images.githubusercontent.com/45109940/205754604-1389385d-04f8-41b2-94b6-c2469e2ac850.png)
@@ -57,8 +57,12 @@ In addition to retrieving and displaying the desired/queried content, the applic
 - MacOS or Linux recommended (not tested on Windows)
 - [nodejs 16+](https://nodejs.org/en/download/package-manager/)
 - [yarn](https://classic.yarnpkg.com/en/docs/install)
-- python 3.5.6 
+- python 3.5.6
   - We've found the most reliable way of installing python 3.5.6 and all of the python dependencies is by using [conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html).
+
+#### System Diagram
+
+![lecture_search drawio](https://user-images.githubusercontent.com/111754987/205806772-a4df4cd2-7624-4803-a8fb-c9687a8da4b6.svg)
 
 #### API
 
@@ -82,10 +86,10 @@ This will start an HTTP server that serves requests.
 
 Example request: http://localhost:8000/documents?search=paradigmatic%20relationship&corpus=cs-410&max_results=5
 
-> Note: Sometimes gunicorn can keep running in the background if the process is not shutdown correctly. If you see an error message that indicates that a process is already using port 8000: `[ERROR] Connection in use: ('127.0.0.1', 8000)`, try the following to find out which process it is, and kill the process. 
+> Note: Sometimes gunicorn can keep running in the background if the process is not shutdown correctly. If you see an error message that indicates that a process is already using port 8000: `[ERROR] Connection in use: ('127.0.0.1', 8000)`, try the following to find out which process it is, and kill the process.
 >
 > ```sh
-> # kills processes running on port 8000 
+> # kills processes running on port 8000
 > kill -9 $(lsof -ti:8000)
 > # try re-running the api
 > gunicorn api.wsgi
@@ -127,7 +131,7 @@ Running the command above will prompt the user for three parameters for each req
 
 ## Implementation Details
 
-- The Lecture Search Engine was created with the [metapy](https://github.com/meta-toolkit/metapy) NLP toolkit. 
+- The Lecture Search Engine was created with the [metapy](https://github.com/meta-toolkit/metapy) NLP toolkit.
 - The Lecture Search Client was created with the [React](https://reactjs.org/) web application framework.
 - The Lecture Search API was created with the [Django](https://www.djangoproject.com/) web application framework.
 - All files including video, lecture text and slides are hosted on an [AWS S3](https://aws.amazon.com/pm/serv-s3/) bucket.
@@ -162,7 +166,7 @@ python prep.py
 
 Each directory in `code/prep` will result in a new corpus. The corpus creator was modeled on file names downloaded by [`coursera-dl`](https://github.com/coursera-dl/coursera-dl) for the `cs-410` course and may not work on others.
 
-In principle, the same approach/implementation described above can be applied to any other course content derived from Coursera using [`coursera-dl`](https://github.com/coursera-dl/coursera-dl), although this has not yet been formally/rigorously tested and minor modifications may be required. 
+In principle, the same approach/implementation described above can be applied to any other course content derived from Coursera using [`coursera-dl`](https://github.com/coursera-dl/coursera-dl), although this has not yet been formally/rigorously tested and minor modifications may be required.
 
 
 
@@ -186,7 +190,7 @@ In principle, the same approach/implementation described above can be applied to
 
 ## Contributors
 
-### UIUC CS 410 - Fall 2022 | Team Early Birds* 
+### UIUC CS 410 - Fall 2022 | Team Early Birds*
 
 **Anthony Ghabour (Team Captain)**
 
@@ -196,7 +200,7 @@ In principle, the same approach/implementation described above can be applied to
 
 **Tina Tang**
 
-- Ranking function testing and corpus validation 
+- Ranking function testing and corpus validation
 - Documentation and instructional video development
 
 **Rick Suggs**
@@ -215,4 +219,4 @@ In principle, the same approach/implementation described above can be applied to
 - Front-end development and content hosting
 - Integration, deployment, and testing
 
-\* Team members contributed equally and are listed in no particular order. 
+\* Team members contributed equally and are listed in no particular order.
