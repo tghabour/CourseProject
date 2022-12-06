@@ -60,9 +60,7 @@ In addition to retrieving and displaying the desired/queried content, the applic
 - python 3.5.6
   - We've found the most reliable way of installing python 3.5.6 and all of the python dependencies is by using [conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html).
 
-#### System Diagram
 
-![lecture_search drawio](https://user-images.githubusercontent.com/111754987/205806772-a4df4cd2-7624-4803-a8fb-c9687a8da4b6.svg)
 
 #### API
 
@@ -142,7 +140,7 @@ The API only includes one endpoint: `/documents`. This endpoint accepts HTTP GET
 
 The live API can be accessed [here](https://sea-turtle-app-7y54u.ondigitalocean.app/documents/).
 
-### System Diagram (Deployed)
+### System Diagram
 
 ![lecture_search drawio](https://user-images.githubusercontent.com/111754987/205806772-a4df4cd2-7624-4803-a8fb-c9687a8da4b6.svg)
 
