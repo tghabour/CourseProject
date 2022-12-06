@@ -16,10 +16,11 @@ However, in their current state, most MOOCs are not fully mature platforms and d
 
 The goal of this project is to implement enhancements to an intelligent learning platform (much like, [SmartMOOCs)](https://smartmoocs.web.illinois.edu/) and demonstrate that a more intuitive and efficient learning experience is acheivable. In particular, this project aims to:
 
-1) incorporate keyword and query search functionality (primary objective), and
-2) identify better ways to segment lectures based on topic transitions (stretch goal).
+1. incorporate keyword and query search functionality (primary objective), and
 
+2. identify better ways to segment lectures based on topic transitions (stretch goal).
 
+   
 
 ## Usage
 
@@ -77,12 +78,18 @@ python manage.py test
 gunicorn api.wsgi
 ```
 
-This will start an HTTP server that serves requests. 
+This will start an HTTP server that serves requests.
 
 Example request: http://localhost:8000/documents?search=paradigmatic%20relationship&corpus=cs-410&max_results=5
 
-**Add instructions for shutting down port 8000 if already in use?**
-
+> Note: Sometimes gunicorn can keep running in the background if the process is not shutdown correctly. If you see an error message that indicates that a process is already using port 8000: `[ERROR] Connection in use: ('127.0.0.1', 8000)`, try the following to find out which process it is, and kill the process. 
+>
+> ```sh
+> # kills processes running on port 8000 
+> kill -9 $(lsof -ti:8000)
+> # try re-running the api
+> gunicorn api.wsgi
+> ```
 
 #### Client
 
@@ -100,16 +107,17 @@ The Client is available at the following URL: https://localhost:3000
 
 #### CLI (Command Line Interface)
 
-Alternatively, you may also try running the API directly from the command line:
+Alternatively, in lieu of running the application via a web interface, you may also try running the API directly from the command line:
 
 ```sh
 # try searching from the command line (optional)
+# after activating your lecture_search environment
 python lecture_search_cli.py
 ```
 
 Running the command above will prompt the user for three parameters for each request:
 
-1. Search query 
+1. Query search string
 2. The corpus type (either "lectures" for lecture-level results or "cs-410" for slide-level results; default = 'lectures')
 3. Number of results to return (default = 5)
 
@@ -130,26 +138,11 @@ The API only includes one endpoint: `/documents`. This endpoint accepts HTTP GET
 
 The live API can be accessed [here](https://sea-turtle-app-7y54u.ondigitalocean.app/documents/).
 
-### Architecture Diagram (Deployed)
+### System Diagram (Deployed)
 
-```mermaid
-C4Deployment
-    title Component diagram for Lecture Search and Segmentation
-    Deployment_Node(do, "Digital Ocean") {
-        Deployment_Node(static_app, "Static") {
-            Container(spa, "Single Page Application", "JavaScript and React " "Front end search application.")
-        }
-        Deployment_Node(dynamic_app, "Dynamic") {
-            Container_Boundary(api, "Python and Django API", "") {
-                Component(docs, "Documents Controller", "Controller", "Handles API requests for searching documents")
-                Component(search_engine, "MetaPy Search Engine", "metapy", "Provides access to the inverted index to search for relevant documents")
-                Rel(docs, search_engine, "Uses")
-            }
-        }
-    }
+![lecture_search drawio](https://user-images.githubusercontent.com/111754987/205806772-a4df4cd2-7624-4803-a8fb-c9687a8da4b6.svg)
 
-    Rel_Back(spa, docs, "Uses", "JSON")
-```
+
 
 ### Corpus creation
 
@@ -210,6 +203,7 @@ In principle, the same approach/implementation described above can be applied to
 
 - Solution architecture
 - Integration, deployment, and testing
+- Extractive Summarizer
 
 **Maciej Wieczorek**
 
