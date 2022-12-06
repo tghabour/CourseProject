@@ -88,7 +88,7 @@ Example request: http://localhost:8000/documents?search=paradigmatic%20relations
 
 > Note: Sometimes gunicorn can keep running in the background if the process is not shutdown correctly. If you see an error message that indicates that a process is already using port 8000: `[ERROR] Connection in use: ('127.0.0.1', 8000)`, try the following to find out which process it is, and kill the process.
 >
-> ```sh
+> ```python
 > # kills processes running on port 8000
 > kill -9 $(lsof -ti:8000)
 > # try re-running the api
