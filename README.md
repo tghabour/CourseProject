@@ -85,7 +85,22 @@ This will start an HTTP server that serves requests.
 
 Example request: http://localhost:8000/documents?search=paradigmatic%20relationship&corpus=cs-410&max_results=5
 
-**Add instructions for shutting down port 8000 if already in use?**
+Note: Sometimes gunicorn can keep running in the background, if the process is not shutdown correctly. If you see an error message that indicates that a process is already using port 8000, try the following to find out which process it is, and kill the process.
+
+```sh
+# get a list of running processes matching gunicorn
+(lecture_search) ➜  api git:(main) ✗ ps a | grep "gunicorn api.wsgi"
+31387 pts/4    S+     0:00 /home/rick/anaconda3/envs/lecture_search/bin/python /home/rick/anaconda3/envs/lecture_search/bin/gunicorn api.wsgi
+31390 pts/4    S+     0:00 /home/rick/anaconda3/envs/lecture_search/bin/python /home/rick/anaconda3/envs/lecture_search/bin/gunicorn api.wsgi
+31570 pts/5    S+     0:00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox gunicorn api.wsgi
+
+# kill the gunicorn process
+(lecture_search) ➜  api git:(main) ✗ pkill gunicorn
+
+# verify the process has been terminated
+(lecture_search) ➜  api git:(main) ✗ ps aux | grep "gunicorn api.wsgi"
+rick     31722  0.0  0.0   8180   720 pts/5    S+   21:56   0:00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox gunicorn api.wsgi
+```
 
 
 #### Client
@@ -193,6 +208,7 @@ In principle, the same approach/implementation described above can be applied to
 
 - Solution architecture
 - Integration, deployment, and testing
+- Extractive Summarizer
 
 **Maciej Wieczorek**
 
