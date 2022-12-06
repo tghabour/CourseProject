@@ -58,6 +58,10 @@ In addition to retrieving and displaying the desired/queried content, the applic
 - [yarn](https://classic.yarnpkg.com/en/docs/install)
 - python 3.5.6 
   - We've found the most reliable way of installing python 3.5.6 and all of the python dependencies is by using [conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html).
+  
+#### System Diagram
+
+![lecture_search drawio](https://user-images.githubusercontent.com/111754987/205806772-a4df4cd2-7624-4803-a8fb-c9687a8da4b6.svg)
 
 #### API
 
@@ -129,27 +133,6 @@ The API and Client are automatically deployed to the Digital Ocean platform ever
 The API only includes one endpoint: `/documents`. This endpoint accepts HTTP GET requests with a search query parameter. The search parameter is a space-separated list of words. The endpoint responds with a JSON formatted list of search results.
 
 The live API can be accessed [here](https://sea-turtle-app-7y54u.ondigitalocean.app/documents/).
-
-### Architecture Diagram (Deployed)
-
-```mermaid
-C4Deployment
-    title Component diagram for Lecture Search and Segmentation
-    Deployment_Node(do, "Digital Ocean") {
-        Deployment_Node(static_app, "Static") {
-            Container(spa, "Single Page Application", "JavaScript and React " "Front end search application.")
-        }
-        Deployment_Node(dynamic_app, "Dynamic") {
-            Container_Boundary(api, "Python and Django API", "") {
-                Component(docs, "Documents Controller", "Controller", "Handles API requests for searching documents")
-                Component(search_engine, "MetaPy Search Engine", "metapy", "Provides access to the inverted index to search for relevant documents")
-                Rel(docs, search_engine, "Uses")
-            }
-        }
-    }
-
-    Rel_Back(spa, docs, "Uses", "JSON")
-```
 
 ### Corpus creation
 
