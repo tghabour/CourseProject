@@ -193,8 +193,7 @@ In principle, the same approach/implementation described above can be applied to
 **Anthony Ghabour (Team Captain)**
 
 - Lecture-level corpus, metadata, and ranking function development
-
- - Documentation and dependency testing
+- Documentation and dependency testing
 
 **Tina Tang**
 
