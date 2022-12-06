@@ -142,9 +142,7 @@ The live API can be accessed [here](https://sea-turtle-app-7y54u.ondigitalocean.
 
 ### System Diagram
 
-![lecture_search drawio](https://user-images.githubusercontent.com/111754987/205806772-a4df4cd2-7624-4803-a8fb-c9687a8da4b6.svg)
-
-
+![lecture_search drawio](https://user-images.githubusercontent.com/111754987/206048458-17c87666-f4e7-49e7-a146-96571d80af5c.svg)
 
 ### Corpus creation
 
