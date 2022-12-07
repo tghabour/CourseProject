@@ -9,13 +9,13 @@ def build_corpus(srt_file,data,metadata):
     print("  Processing {}...".format(srt_file),end='')
     # Get file name from path+filename
     file_name = srt_file.split("/")[-1]
-    # Check if there are at least three numbers in filename, which are usually lesson, week, lesson (again)
-    if len(re.findall(r'\d+',file_name)) < 3:
+    # Check if there are at least two numbers in filename, which are usually lesson, week
+    if len(re.findall(r'\d+',file_name)) < 2:
         print("ERROR: unexpected filename format")
         return
     # Format from coursera-dl seems to typically be $lesson_[lesson-]$week-$lesson-$lessonname.$lang.$extention
     nums = re.findall(r'\d+',file_name)
-    wl = "W"+str(nums[1]).rjust(2,'0')+"_L"+str(nums[2]).rjust(2,'0')
+    wl = "W"+str(nums[1]).rjust(2,'0')+"_L"+str(nums[0]).rjust(2,'0')
     # Trim leading text
     lname = re.sub(r'^\d+.*\d+-\d-','',file_name)
     # Trim extensions
