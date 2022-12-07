@@ -17,7 +17,6 @@ However, in their current state, most MOOCs are not fully mature platforms and d
 The goal of this project is to implement enhancements to an intelligent learning platform (much like, [SmartMOOCs)](https://smartmoocs.web.illinois.edu/) and demonstrate that a more intuitive and efficient learning experience is acheivable. In particular, this project aims to:
 
 1. incorporate keyword and query search functionality (primary objective), and
-
 2. identify better ways to segment lectures based on topic transitions (stretch goal).
 
 
@@ -26,7 +25,7 @@ The goal of this project is to implement enhancements to an intelligent learning
 
 ### Using the Deployed (Live) Web Application
 
-The web app has been populated with [Coursera](https://www.coursera.org/) content (slides, videos, and transcripts) for CS 410: Text Information Systems and can be accessed [here](https://stingray-app-3sdu7.ondigitalocean.app/).
+The web app has been populated with course content for CS 410: Text Information Systems (slides, videos, and transcripts) from  [Coursera](https://www.coursera.org/) and can be accessed [here](https://stingray-app-3sdu7.ondigitalocean.app/).
 
 ![Screenshot 2022-12-05 at 9.46.30 AM](https://user-images.githubusercontent.com/45109940/205754860-f3dce1b6-433d-472e-87fb-9008a3737059.png)
 
