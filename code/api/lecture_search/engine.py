@@ -38,7 +38,7 @@ class Engine:
             video_id = metadata.get("video_id")
             file_identifier = metadata.get("AWS_file")
             txt_path = "{}{}.txt".format("corpora/lectures/", video_id)
-            with open(txt_path) as file:
+            with open(txt_path, encoding='utf-8') as file:
                 full_text = file.read()
 
             search_result = {
