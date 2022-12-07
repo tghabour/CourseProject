@@ -181,6 +181,8 @@ In principle, the same approach/implementation described above can be applied to
 9. https://pypi.org/project/bert-extractive-summarizer/
 10. https://pypi.org/project/transformers/
 11. https://en.wikipedia.org/wiki/Natural_language_processing
+12. https://github.com/Breakthrough/PySceneDetect
+13. https://github.com/cdown/srt/tree/develop/srt_tools
 
 
 
