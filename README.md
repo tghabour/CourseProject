@@ -123,11 +123,10 @@ Running the command above will prompt the user for three parameters for each req
 3. Number of results to return (default = 5)
 ```sh
 python lecture_search_cli.py
-
+Enter search query: term frequency
+Enter corpus [luctures]: cs-410
+Enter number of search results [5]:
 ```
-
-<img width="558" alt="image" src="https://user-images.githubusercontent.com/94029406/205476050-c894e533-627b-4e25-9123-75d0d9a40fcf.png">
-
 
 
 ## Implementation Details
