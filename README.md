@@ -121,6 +121,10 @@ Running the command above will prompt the user for three parameters for each req
 1. Query search string
 2. The corpus type (either "lectures" for lecture-level results or "cs-410" for slide-level results; default = 'lectures')
 3. Number of results to return (default = 5)
+```sh
+python lecture_search_cli.py
+
+```
 
 <img width="558" alt="image" src="https://user-images.githubusercontent.com/94029406/205476050-c894e533-627b-4e25-9123-75d0d9a40fcf.png">
 
